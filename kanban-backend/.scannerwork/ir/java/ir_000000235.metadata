@@ -1,0 +1,5 @@
+com.example.kanbansystem.service.SprintService#getSprintByName(Ljava/lang/String;)Ljava/util/List;
+false
+bac55d3ae297cde5d2f45edb4da32ddf
+==
+findSprintByName com.example.kanbansystem.Repository.SprintRepository#findSprintByName(Ljava/lang/String;)Ljava/util/List;

@@ -1,0 +1,16 @@
+
+`com.example.kanbansystem.service.BoardService#getBoardById(Ljava/lang/Long;)Ljava/util/Optional;ù
+íC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/service/BoardService.java, ,('"1*÷
+1- -(≤
+Ø
+- -(9
+%03com.example.kanbansystem.Repository.BoardRepository"__id*b
+
+__unknown_file (F*D/
+-com.example.kanbansystem.service.BoardService"
+boardRepository"
+- -(,
+"": 
+,( ,(/
+idjava.lang.LongB1/
+-com.example.kanbansystem.service.BoardServiceH

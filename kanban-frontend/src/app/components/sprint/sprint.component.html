@@ -1,0 +1,18 @@
+<app-board-navbar [boards]="boards"></app-board-navbar>
+<div id="ctl">
+<h2 class="title">List of Sprints</h2>
+<ul class="sprint-list">
+  <li *ngFor="let sprint of sprints" class="sprint-item">
+    <div class="sprint-details">
+      <span class="sprint-name" id="name">{{ sprint.name }}</span>
+      <div class="sprint-dates">
+        <span class="start-date" id=startDate>Start Date: {{ sprint.startDate | date: 'medium' }}</span>
+        <span class="end-date" id="endDate">End Date: {{ sprint.endDate | date: 'medium' }}</span>
+      </div>
+    </div>
+    <button *ngIf="userRole === 'ROLE_ADMIN'" class="delete-btn" (click)="deleteSprint(sprint.id)">Delete</button>
+  </li>
+</ul>
+<div class="alert-message" *ngIf="alertMessage">{{ alertMessage }}</div>
+<button *ngIf="userRole === 'ROLE_ADMIN'" class="add-sprint-btn" id="addSprintButton" routerLink="/addsprint">Add Sprint</button>
+</div>

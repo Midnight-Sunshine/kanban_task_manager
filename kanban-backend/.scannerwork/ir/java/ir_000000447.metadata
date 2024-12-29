@@ -1,0 +1,7 @@
+com.example.kanbansystem.controller.BoardController#getBoardById(Ljava/lang/Long;)LResponseEntity;
+false
+347945fe50295f9d18ec101541dc67d6
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#isPresent()Z
+==
+getBoardById com.example.kanbansystem.service.BoardService#getBoardById(Ljava/lang/Long;)Ljava/util/Optional;

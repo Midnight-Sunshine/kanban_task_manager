@@ -1,0 +1,11 @@
+com.example.kanbansystem.Controller.TestBoardController#testSaveBoard_InvalidUser()V
+false
+f91fcb783262f611393638ab48dfea70
+com.example.kanbansystem.entities.Board#<init>()V
+com.example.kanbansystem.entities.Board#instance-init#
+java.util.Optional#empty()Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+getUserById com.example.kanbansystem.security.MyuserDetailsService#getUserById(Ljava/lang/Long;)Ljava/util/Optional;
+saveBoard com.example.kanbansystem.controller.BoardController#saveBoard(Lcom/example/kanbansystem/entities/Board;)LResponseEntity;
+setUserId com.example.kanbansystem.entities.Board#setUserId(Ljava/lang/Long;)V

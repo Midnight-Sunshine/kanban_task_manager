@@ -1,0 +1,13 @@
+com.example.kanbansystem.Service.TestUserService#testSaveUser()V
+false
+8e440cc8ec684b601fc0af1df5c99c95
+com.example.kanbansystem.entities.User#<init>()V
+com.example.kanbansystem.entities.User#instance-init#
+==
+!unknownMethod! !unknownMethod!
+saveUser com.example.kanbansystem.service.UserService#saveUser(Lcom/example/kanbansystem/entities/User;)Lcom/example/kanbansystem/entities/User;
+setActive com.example.kanbansystem.entities.User#setActive(Z)V
+setEmail com.example.kanbansystem.entities.User#setEmail(Ljava/lang/String;)V
+setPassword com.example.kanbansystem.entities.User#setPassword(Ljava/lang/String;)V
+setRoles com.example.kanbansystem.entities.User#setRoles(Ljava/lang/String;)V
+setUsername com.example.kanbansystem.entities.User#setUsername(Ljava/lang/String;)V

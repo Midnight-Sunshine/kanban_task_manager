@@ -1,0 +1,5 @@
+com.example.kanbansystem.controller.TaskController#getAllTask()LResponseEntity;
+false
+62ce4ddb36aee5c6c37fe21b813b0b81
+==
+getAllTask com.example.kanbansystem.service.TaskService#getAllTask()Ljava/util/List;

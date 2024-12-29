@@ -1,0 +1,13 @@
+com.example.kanbansystem.Service.TestSprintService#testGetSprintById()V
+false
+58bc8f03ca270de0353141c6bc1da4cd
+com.example.kanbansystem.entities.Sprint#<init>()V
+com.example.kanbansystem.entities.Sprint#instance-init#
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#isPresent()Z
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+getId com.example.kanbansystem.entities.Sprint#getId()J
+getSprintById com.example.kanbansystem.service.SprintService#getSprintById(J)Ljava/util/Optional;
+setId com.example.kanbansystem.entities.Sprint#setId(J)V

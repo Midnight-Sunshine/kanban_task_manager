@@ -1,0 +1,15 @@
+
+jcom.example.kanbansystem.Response.AuthenticationResponse#getUser()Lcom/example/kanbansystem/entities/User;®
+ùC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/Response/AuthenticationResponse.java ("1*Ò
+1 (•
+¢
+ (,
+%0&com.example.kanbansystem.entities.User"__id*b
+
+__unknown_file (F*D:
+8com.example.kanbansystem.Response.AuthenticationResponse"
+user":
+ (.
+,
+%0&com.example.kanbansystem.entities.UserB<:
+8com.example.kanbansystem.Response.AuthenticationResponseH

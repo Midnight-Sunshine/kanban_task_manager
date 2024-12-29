@@ -1,0 +1,9 @@
+com.example.kanbansystem.Controller.TestBoardController#testGetBoardByName_Found()V
+false
+d8e4be5c5791a17ccb16a96f87d1daf5
+com.example.kanbansystem.entities.Board#<init>()V
+com.example.kanbansystem.entities.Board#instance-init#
+==
+!unknownMethod! !unknownMethod!
+getBoardByName com.example.kanbansystem.controller.BoardController#getBoardByName(Ljava/lang/String;)LResponseEntity;
+getBoardByName com.example.kanbansystem.service.BoardService#getBoardByName(Ljava/lang/String;)Lcom/example/kanbansystem/entities/Board;

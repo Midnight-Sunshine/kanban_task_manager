@@ -1,0 +1,10 @@
+com.example.kanbansystem.Service.TestUserService#testGetUsersByIds()V
+false
+cf2592aeb1ac8b827b17ed47ea5810fe
+com.example.kanbansystem.entities.User#<init>()V
+com.example.kanbansystem.entities.User#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+getUsersByIds com.example.kanbansystem.service.UserService#getUsersByIds(Ljava/util/List;)Ljava/util/List;
+size java.util.List#size()I

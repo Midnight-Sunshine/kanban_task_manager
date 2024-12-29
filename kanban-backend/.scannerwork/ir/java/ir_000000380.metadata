@@ -1,0 +1,6 @@
+com.example.kanbansystem.controller.TaskController#getTasksByBoardId(Ljava/lang/Long;)LResponseEntity;
+false
+88ad158ae1027fc3b26b9fb22c3222d7
+==
+getTasksByBoardId com.example.kanbansystem.service.TaskService#getTasksByBoardId(Ljava/lang/Long;)Ljava/util/List;
+isEmpty java.util.List#isEmpty()Z

@@ -1,0 +1,10 @@
+com.example.kanbansystem.service.TaskService#updateTaskStatus(Ljava/lang/Long;Lcom/example/kanbansystem/entities/TaskStatus;)V
+false
+61ee8f7fc840c3ac9a5b689323e58afe
+java.lang.RuntimeException#<init>(Ljava/lang/String;)V
+java.lang.RuntimeException#instance-init#
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#isPresent()Z
+==
+!unknownMethod! !unknownMethod!
+setStatus com.example.kanbansystem.entities.Task#setStatus(Lcom/example/kanbansystem/entities/TaskStatus;)V

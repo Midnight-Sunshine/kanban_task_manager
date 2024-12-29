@@ -1,0 +1,5 @@
+com.example.kanbansystem.Response.AuthenticationRequest#builder()Lcom/example/kanbansystem/Response/AuthenticationRequest$Builder;
+false
+9c7312064dc81a2a166583724319e7c7
+com.example.kanbansystem.Response.AuthenticationRequest$Builder#<init>()V
+com.example.kanbansystem.Response.AuthenticationRequest$Builder#instance-init#

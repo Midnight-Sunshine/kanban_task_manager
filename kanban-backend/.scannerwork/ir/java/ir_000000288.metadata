@@ -1,0 +1,11 @@
+com.example.kanbansystem.Service.TestTaskService#testGetTaskById()V
+false
+24b5e4074d459f5c162a5afef00879cb
+com.example.kanbansystem.entities.Task#<init>()V
+com.example.kanbansystem.entities.Task#instance-init#
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#isPresent()Z
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+getTaskById com.example.kanbansystem.service.TaskService#getTaskById(Ljava/lang/Long;)Ljava/util/Optional;

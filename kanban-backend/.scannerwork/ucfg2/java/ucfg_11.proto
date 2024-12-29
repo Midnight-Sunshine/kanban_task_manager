@@ -1,0 +1,16 @@
+
+`com.example.kanbansystem.service.SprintService#getSprintsByIds(Ljava/util/List;)Ljava/util/List;ž
+“C:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/service/SprintService.java8 8('"1*Ù
+19 9(µ
+²
+9 9(:
+%04com.example.kanbansystem.Repository.SprintRepository"__id*d
+
+__unknown_file (H*F0
+.com.example.kanbansystem.service.SprintService"
+sprintRepository"
+9 9(7
+"":'
+8( 8(<
+	sprintIdsjava.util.ListB20
+.com.example.kanbansystem.service.SprintServiceH

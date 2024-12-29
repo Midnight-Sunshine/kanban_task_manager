@@ -1,0 +1,13 @@
+com.example.kanbansystem.service.authService#authenticate(Lcom/example/kanbansystem/Response/AuthenticationRequest;)Lcom/example/kanbansystem/Response/AuthenticationResponse;
+false
+d5e269aff27a92eb33623b1ba9fe959e
+com.example.kanbansystem.Response.AuthenticationResponse#builder()Lcom/example/kanbansystem/Response/AuthenticationResponse$Builder;
+java.lang.String#equals(Ljava/lang/Object;)Z
+==
+build com.example.kanbansystem.Response.AuthenticationResponse$Builder#build()Lcom/example/kanbansystem/Response/AuthenticationResponse;
+findByUsername com.example.kanbansystem.Repository.UserRepository#findByUsername(Ljava/lang/String;)Lcom/example/kanbansystem/entities/User;
+getPassword com.example.kanbansystem.Response.AuthenticationRequest#getPassword()Ljava/lang/String;
+getPassword com.example.kanbansystem.entities.User#getPassword()Ljava/lang/String;
+getUsername com.example.kanbansystem.Response.AuthenticationRequest#getUsername()Ljava/lang/String;
+message com.example.kanbansystem.Response.AuthenticationResponse$Builder#message(Ljava/lang/String;)Lcom/example/kanbansystem/Response/AuthenticationResponse$Builder;
+user com.example.kanbansystem.Response.AuthenticationResponse$Builder#user(Lcom/example/kanbansystem/entities/User;)Lcom/example/kanbansystem/Response/AuthenticationResponse$Builder;

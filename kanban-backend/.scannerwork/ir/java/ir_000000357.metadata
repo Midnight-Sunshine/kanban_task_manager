@@ -1,0 +1,24 @@
+com.example.kanbansystem.Controller.TestTaskController#testSaveTask_Success()V
+false
+00af6942e565ae3a0455175db572a065
+com.example.kanbansystem.dto.TaskDTO#<init>()V
+com.example.kanbansystem.dto.TaskDTO#instance-init#
+com.example.kanbansystem.entities.Board#<init>()V
+com.example.kanbansystem.entities.Board#instance-init#
+com.example.kanbansystem.entities.Task#<init>()V
+com.example.kanbansystem.entities.Task#instance-init#
+java.util.ArrayList#<factory>()Ljava/util/ArrayList;
+java.util.ArrayList#instance-init#
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+getBoardById com.example.kanbansystem.service.BoardService#getBoardById(Ljava/lang/Long;)Ljava/util/Optional;
+getBoardId com.example.kanbansystem.dto.TaskDTO#getBoardId()Ljava/lang/Long;
+getSprintIds com.example.kanbansystem.dto.TaskDTO#getSprintIds()Ljava/util/List;
+getSprintsByIds com.example.kanbansystem.service.SprintService#getSprintsByIds(Ljava/util/List;)Ljava/util/List;
+getUserIds com.example.kanbansystem.dto.TaskDTO#getUserIds()Ljava/util/List;
+getUsersByIds com.example.kanbansystem.service.UserService#getUsersByIds(Ljava/util/List;)Ljava/util/List;
+saveTask com.example.kanbansystem.controller.TaskController#saveTask(Lcom/example/kanbansystem/dto/TaskDTO;)LResponseEntity;
+saveTask com.example.kanbansystem.service.TaskService#saveTask(Lcom/example/kanbansystem/entities/Task;)Lcom/example/kanbansystem/entities/Task;
+setBoardId com.example.kanbansystem.dto.TaskDTO#setBoardId(Ljava/lang/Long;)V
+setName com.example.kanbansystem.dto.TaskDTO#setName(Ljava/lang/String;)V

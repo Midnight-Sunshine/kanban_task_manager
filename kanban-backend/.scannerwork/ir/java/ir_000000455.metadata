@@ -1,0 +1,5 @@
+com.example.kanbansystem.controller.SprintController#saveSprint(Lcom/example/kanbansystem/entities/Sprint;)LResponseEntity;
+false
+035bb4fd057fdd11859f300119eb15a9
+==
+saveSprint com.example.kanbansystem.service.SprintService#saveSprint(Lcom/example/kanbansystem/entities/Sprint;)Lcom/example/kanbansystem/entities/Sprint;

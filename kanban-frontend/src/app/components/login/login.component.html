@@ -1,0 +1,98 @@
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+<body>
+<div class="main">  
+  <input type="checkbox" id="chk" aria-hidden="true">
+
+  <!-- Signup Form -->
+  <div class="signup">
+    <form #signupForm="ngForm" (ngSubmit)="onSignupSubmit(signupForm)">
+      <label id="signupLabel" for="chk" aria-hidden="true">Sign up</label>
+
+      <!-- Username Input -->
+      <input
+        type="text"
+        id="signupUsername"
+        class="form-control"
+        ngModel
+        name="username"
+        placeholder="Enter your username"
+        minlength="3"
+      />
+      <div id="usernameError" *ngIf="signupForm.controls['username']?.invalid && signupForm.controls['username']?.touched" class="error">
+        Username must be at least 3 characters long.
+      </div>
+
+      <!-- Email Input -->
+      <input
+        type="email"
+        id="signupEmail"
+        class="form-control"
+        ngModel
+        name="email"
+        placeholder="Enter your email"
+        email
+      />
+      <div id="emailError" *ngIf="signupForm.controls['email']?.invalid && signupForm.controls['email']?.touched" class="error">
+        Please enter a valid email address.
+      </div>
+
+      <!-- Password Input -->
+      <input
+        type="password"
+        id="signupPassword"
+        class="form-control"
+        ngModel
+        name="password"
+        placeholder="Enter your password"
+        minlength="6"
+      />
+      <div id="passwordError" *ngIf="signupForm.controls['password']?.invalid && signupForm.controls['password']?.touched" class="error">
+        Password must be at least 6 characters long.
+      </div>
+
+      <!-- Error Message for Signup -->
+      <div id="signupErrorMessage" *ngIf="signupErrorMessage" class="error">
+        {{ signupErrorMessage }}
+      </div>
+
+      <!-- Submit Button -->
+      <button id="signupButton" type="submit" class="btn btn-primary btn-block" [disabled]="signupForm.invalid">Sign Up</button>
+    </form>
+  </div>
+
+  <!-- Login Form -->
+  <div class="login">
+    <form #loginForm="ngForm" (ngSubmit)="onLoginSubmit(loginForm)">
+      <label id="loginLabel" for="chk" aria-hidden="true">Login</label>
+
+      <!-- Username Input -->
+      <input
+        type="text"
+        id="loginUsername"
+        class="form-control"
+        ngModel
+        name="username"
+        placeholder="Enter your username"
+      />
+
+      <!-- Password Input -->
+      <input
+        type="password"
+        id="loginPassword"
+        class="form-control"
+        ngModel
+        name="password"
+        placeholder="Enter your password"
+      />
+
+      <!-- Error Message for Login -->
+      <div id="loginErrorMessage" *ngIf="errorMessage" class="error">
+        {{ errorMessage }}
+      </div>
+
+      <!-- Submit Button -->
+      <button id="loginButton" type="submit" class="btn btn-primary btn-block" [disabled]="loginForm.invalid">Login</button>
+    </form>
+  </div>
+</div>
+</body>

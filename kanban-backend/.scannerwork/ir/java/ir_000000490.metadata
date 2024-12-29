@@ -1,0 +1,6 @@
+com.example.kanbansystem.security.SecurityConfig#configure(LAuthenticationManagerBuilder;)V
+false
+28da866f7f57ea12fc8501a1dff84f95
+==
+!unknownMethod! !unknownMethod!
+myUserDetailsService com.example.kanbansystem.security.SecurityConfig#myUserDetailsService()LUserDetailsService;

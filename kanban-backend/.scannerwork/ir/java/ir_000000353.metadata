@@ -1,0 +1,7 @@
+com.example.kanbansystem.Controller.TestTaskController#testGetTaskByName_NotFound()V
+false
+13cc736dc1b90251c5d5311f4b0a61d0
+==
+!unknownMethod! !unknownMethod!
+getTaskByName com.example.kanbansystem.controller.TaskController#getTaskByName(Ljava/lang/String;)LResponseEntity;
+getTaskByName com.example.kanbansystem.service.TaskService#getTaskByName(Ljava/lang/String;)Ljava/util/List;

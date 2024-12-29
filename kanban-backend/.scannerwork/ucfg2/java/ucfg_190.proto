@@ -1,0 +1,41 @@
+
+€com.example.kanbansystem.Response.AuthenticationRequest$Builder#build()Lcom/example/kanbansystem/Response/AuthenticationRequest;§
+œC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/Response/AuthenticationRequest.javaA% A(*"1*â
+1B- B(5š
+—
+B- B(5
+%0java.lang.String"__id*m
+
+__unknown_file (Q*OA
+?com.example.kanbansystem.Response.AuthenticationRequest$Builder"
+
+usernameš
+—
+B7 B(?
+%1java.lang.String"__id*m
+
+__unknown_file (Q*OA
+?com.example.kanbansystem.Response.AuthenticationRequest$Builder"
+
+password…‚
+B B(,=
+%27com.example.kanbansystem.Response.AuthenticationRequest"7com.example.kanbansystem.Response.AuthenticationRequestÃ
+À
+B B(@
+%3"ecom.example.kanbansystem.Response.AuthenticationRequest#<init>(Ljava/lang/String;Ljava/lang/String;)V*[
+
+__unknown_file (?
+=
+%27com.example.kanbansystem.Response.AuthenticationRequest*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String"K
+B B(A?
+=
+%27com.example.kanbansystem.Response.AuthenticationRequestBCA
+?com.example.kanbansystem.Response.AuthenticationRequest$BuilderH

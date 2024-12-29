@@ -1,0 +1,5 @@
+com.example.kanbansystem.service.TaskService#getTasksByBoardId(Ljava/lang/Long;)Ljava/util/List;
+false
+da4a4ccefb3777d88973009cec36eb6d
+==
+findByBoardId com.example.kanbansystem.Repository.TaskRepository#findByBoardId(Ljava/lang/Long;)Ljava/util/List;

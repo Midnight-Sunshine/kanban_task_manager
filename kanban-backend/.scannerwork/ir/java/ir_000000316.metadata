@@ -1,0 +1,17 @@
+com.example.kanbansystem.Service.TestAuthService#testAuthenticate_Success()V
+false
+6a16ada559936de618a8d6a1c1f0d1a6
+com.example.kanbansystem.Response.AuthenticationRequest#<init>()V
+com.example.kanbansystem.Response.AuthenticationRequest#instance-init#
+com.example.kanbansystem.entities.User#<init>()V
+com.example.kanbansystem.entities.User#instance-init#
+==
+!unknownMethod! !unknownMethod!
+authenticate com.example.kanbansystem.service.authService#authenticate(Lcom/example/kanbansystem/Response/AuthenticationRequest;)Lcom/example/kanbansystem/Response/AuthenticationResponse;
+findByUsername com.example.kanbansystem.Repository.UserRepository#findByUsername(Ljava/lang/String;)Lcom/example/kanbansystem/entities/User;
+getMessage com.example.kanbansystem.Response.AuthenticationResponse#getMessage()Ljava/lang/String;
+getUser com.example.kanbansystem.Response.AuthenticationResponse#getUser()Lcom/example/kanbansystem/entities/User;
+setPassword com.example.kanbansystem.Response.AuthenticationRequest#setPassword(Ljava/lang/String;)V
+setPassword com.example.kanbansystem.entities.User#setPassword(Ljava/lang/String;)V
+setUsername com.example.kanbansystem.Response.AuthenticationRequest#setUsername(Ljava/lang/String;)V
+setUsername com.example.kanbansystem.entities.User#setUsername(Ljava/lang/String;)V

@@ -1,0 +1,16 @@
+
+hcom.example.kanbansystem.security.MyuserDetailsService#getUserById(Ljava/lang/Long;)Ljava/util/Optional;¦
+›C:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/security/MyuserDetailsService.java6 6(%"1*Ý
+17 7(¹
+¶
+7 7(8
+%02com.example.kanbansystem.Repository.UserRepository"__id*j
+
+__unknown_file (N*L8
+6com.example.kanbansystem.security.MyuserDetailsService"
+userRepository"
+7 7(/
+"":$
+6& 6(1
+userIdjava.lang.LongB:8
+6com.example.kanbansystem.security.MyuserDetailsServiceH

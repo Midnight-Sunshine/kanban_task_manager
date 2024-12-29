@@ -1,0 +1,8 @@
+com.example.kanbansystem.service.BoardService#deleteBoardById(Ljava/lang/Long;)Ljava/lang/String;
+false
+1db4872467c5a002340a006cb3ee496c
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#isPresent()Z
+==
+!unknownMethod! !unknownMethod!
+findByBoardId com.example.kanbansystem.Repository.TaskRepository#findByBoardId(Ljava/lang/Long;)Ljava/util/List;

@@ -1,0 +1,9 @@
+com.example.kanbansystem.Controller.TestBoardController#testSaveBoard_NullUserId()V
+false
+aa1c5f1e44a3c54d2da2cca232f68fdb
+com.example.kanbansystem.entities.Board#<init>()V
+com.example.kanbansystem.entities.Board#instance-init#
+==
+!unknownMethod! !unknownMethod!
+saveBoard com.example.kanbansystem.controller.BoardController#saveBoard(Lcom/example/kanbansystem/entities/Board;)LResponseEntity;
+setUserId com.example.kanbansystem.entities.Board#setUserId(Ljava/lang/Long;)V

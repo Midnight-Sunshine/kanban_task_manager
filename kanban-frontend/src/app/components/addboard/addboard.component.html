@@ -1,0 +1,16 @@
+<div class="container">
+  <form [formGroup]="boardForm" (ngSubmit)="onSubmit()" class="board-form">
+    <h2 class="title">Add Board</h2>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" formControlName="name" required>
+    </div>
+    <div class="form-group">
+      <label for="description">Description:</label>
+      <textarea class="form-control" id="description" formControlName="description" required></textarea>
+    </div>
+    <button type="submit" id="boardAddButton" class="btn btn-primary">Add Board</button>
+    <div class="success-message mt-3" *ngIf="successMessage">{{ successMessage }}</div>
+    <div class="error-message mt-3" *ngIf="errorMessage">{{ errorMessage }}</div>
+  </form>
+</div>

@@ -1,0 +1,16 @@
+
+ãcom.example.kanbansystem.service.BoardService#saveBoard(Lcom/example/kanbansystem/entities/Board;)Lcom/example/kanbansystem/entities/Board;ù
+íC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/service/BoardService.java ("1*÷
+1 (≤
+Ø
+ (9
+%03com.example.kanbansystem.Repository.BoardRepository"__id*b
+
+__unknown_file (F*D/
+-com.example.kanbansystem.service.BoardService"
+boardRepository"
+ (+
+"":<
+ (&0
+board'com.example.kanbansystem.entities.BoardB1/
+-com.example.kanbansystem.service.BoardServiceH

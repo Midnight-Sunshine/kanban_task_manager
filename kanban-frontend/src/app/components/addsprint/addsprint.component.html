@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="title">Add Sprint</h2>
+      <form [formGroup]="addSprintForm" (ngSubmit)="onSubmit()" class="sprint-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" formControlName="name" required>
+        </div>
+        <div class="form-group">
+          <label for="startDate">Start Date:</label>
+          <input type="date" class="form-control" id="startDate" formControlName="startDate" required>
+        </div>
+        <div class="form-group">
+          <label for="endDate">End Date:</label>
+          <input type="date" class="form-control" id="endDate" formControlName="endDate" required>
+        </div>
+        <button type="submit" class="btn btn-primary" id="sprintAddButton">Add Sprint</button>
+        <div class="success-message mt-3" *ngIf="successMessage">{{ successMessage }}</div>
+        <div class="error-message mt-3" *ngIf="errorMessage">{{ errorMessage }}</div>
+      </form>
+    </div>
+  </div>
+</div>

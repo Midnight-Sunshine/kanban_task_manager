@@ -1,0 +1,6 @@
+com.example.kanbansystem.Controller.TestTaskController#testUpdateTaskStatus_Success()V
+false
+8742ac2174644e2cb269e2992c0d7655
+==
+!unknownMethod! !unknownMethod!
+updateTaskStatus com.example.kanbansystem.controller.TaskController#updateTaskStatus(Ljava/lang/Long;Lcom/example/kanbansystem/entities/TaskStatus;)LResponseEntity;

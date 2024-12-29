@@ -1,0 +1,5 @@
+com.example.kanbansystem.controller.UserController#addUser(Lcom/example/kanbansystem/entities/User;)Ljava/lang/String;
+false
+68e47177e022ccb8abfe66793bd04bf2
+==
+addNewUser com.example.kanbansystem.security.MyuserDetailsService#addNewUser(Lcom/example/kanbansystem/entities/User;)Lcom/example/kanbansystem/entities/User;

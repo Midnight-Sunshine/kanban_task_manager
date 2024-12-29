@@ -1,0 +1,106 @@
+
+acom.example.kanbansystem.service.BoardService#deleteBoardById(Ljava/lang/Long;)Ljava/lang/String;ù
+íC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/service/BoardService.java   (!"startingBlock*–
+
+2# #('≤Ø
+# #(--
+%2'com.example.kanbansystem.entities.Board"*java.util.Optional#get()Ljava/lang/Object;*A
+
+__unknown_file (%
+#
+optionalBoardjava.util.Optional2get()í
+è
+# #(.0
+board'com.example.kanbansystem.entities.Board"__id*K
+
+__unknown_file (/
+-
+%2'com.example.kanbansystem.entities.Board∞
+≠
+$ $(-8
+%32com.example.kanbansystem.Repository.TaskRepository"__id*a
+
+__unknown_file (E*C/
+-com.example.kanbansystem.service.BoardService"
+taskRepositoryπ∂
+$ $(D
+%4java.util.List"bcom.example.kanbansystem.Repository.TaskRepository#findByBoardId(Ljava/lang/Long;)Ljava/util/List;*V
+
+__unknown_file (:
+8
+%32com.example.kanbansystem.Repository.TaskRepository*7
+
+__unknown_file (
+
+boardIdjava.lang.Long2findByBoardId(Ljava/lang/Long;)_
+]
+$ $(E
+tasksjava.util.List"__id*2
+
+__unknown_file (
+
+%4java.util.List∞
+≠
+% %(8
+%52com.example.kanbansystem.Repository.TaskRepository"__id*a
+
+__unknown_file (E*C/
+-com.example.kanbansystem.service.BoardService"
+taskRepository≤
+Ø
+& &(9
+%63com.example.kanbansystem.Repository.BoardRepository"__id*b
+
+__unknown_file (F*D/
+-com.example.kanbansystem.service.BoardService"
+boardRepository"?
+' '(E31
+/Board and associated tasks deleted successfully*∑
+3!( !(7≤
+Ø
+!( !(79
+%03com.example.kanbansystem.Repository.BoardRepository"__id*b
+
+__unknown_file (F*D/
+-com.example.kanbansystem.service.BoardService"
+boardRepository[
+Y
+! !(J#
+optionalBoardjava.util.Optional"__id*"
+
+__unknown_file (
+""çä
+" "(%
+%1boolean"java.util.Optional#isPresent()Z*A
+
+__unknown_file (%
+#
+optionalBoardjava.util.Optional2isPresent()*
+2
+1*É
+startingBlock !  (/á
+Ñ
+ (
+%7"
+__annotate*-
+
+__unknown_file (
+Transactional*7
+
+__unknown_file (
+
+boardIdjava.lang.LongY
+W
+ '  (.
+boardIdjava.lang.Long"__annotation*"
+
+__unknown_file (
+
+%7*
+3*.
+1) )($"
+) )(%
+Board not found:%
+ "  (.
+boardIdjava.lang.LongB1/
+-com.example.kanbansystem.service.BoardServiceH

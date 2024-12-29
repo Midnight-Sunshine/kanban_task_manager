@@ -1,0 +1,16 @@
+
+^com.example.kanbansystem.service.TaskService#getSprintsByIds(Ljava/util/List;)Ljava/util/List;œ
+‘C:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/service/TaskService.javab b('"1*×
+1c c(³
+°
+c c(:
+%04com.example.kanbansystem.Repository.SprintRepository"__id*b
+
+__unknown_file (F*D.
+,com.example.kanbansystem.service.TaskService"
+sprintRepository"
+c c(7
+"":'
+b( b(<
+	sprintIdsjava.util.ListB0.
+,com.example.kanbansystem.service.TaskServiceH

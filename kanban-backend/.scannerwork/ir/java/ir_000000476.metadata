@@ -1,0 +1,5 @@
+com.example.kanbansystem.service.TaskService#getTaskByName(Ljava/lang/String;)Ljava/util/List;
+false
+271e7c1e28fb3d2568d9f4b451696d9d
+==
+findTaskByName com.example.kanbansystem.Repository.TaskRepository#findTaskByName(Ljava/lang/String;)Ljava/util/List;

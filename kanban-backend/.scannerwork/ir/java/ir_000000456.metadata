@@ -1,0 +1,5 @@
+com.example.kanbansystem.controller.SprintController#deleteSprintById(Ljava/lang/Long;)LResponseEntity;
+false
+e1a222f91c0379e6231942bc7b3abd31
+==
+deleteSprintById com.example.kanbansystem.service.SprintService#deleteSprintById(Ljava/lang/Long;)Ljava/lang/String;

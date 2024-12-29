@@ -1,0 +1,10 @@
+com.example.kanbansystem.Service.TestAuthService#testAuthenticate_UserNotFound()V
+false
+05f6b2dd338266f871c26aefa9bca71d
+com.example.kanbansystem.Response.AuthenticationRequest#<init>()V
+com.example.kanbansystem.Response.AuthenticationRequest#instance-init#
+==
+!unknownMethod! !unknownMethod!
+findByUsername com.example.kanbansystem.Repository.UserRepository#findByUsername(Ljava/lang/String;)Lcom/example/kanbansystem/entities/User;
+setPassword com.example.kanbansystem.Response.AuthenticationRequest#setPassword(Ljava/lang/String;)V
+setUsername com.example.kanbansystem.Response.AuthenticationRequest#setUsername(Ljava/lang/String;)V

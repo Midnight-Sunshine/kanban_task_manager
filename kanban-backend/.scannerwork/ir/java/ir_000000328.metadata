@@ -1,0 +1,10 @@
+com.example.kanbansystem.Controller.TestBoardController#testGetAllBoards()V
+false
+217f789b092131341ea2be7f2ec99379
+com.example.kanbansystem.entities.Board#<init>()V
+com.example.kanbansystem.entities.Board#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+getAllBoard com.example.kanbansystem.controller.BoardController#getAllBoard()LResponseEntity;
+getAllBoard com.example.kanbansystem.service.BoardService#getAllBoard()Ljava/util/List;

@@ -1,0 +1,12 @@
+com.example.kanbansystem.Service.TestAuthService#testRegister_Success()V
+false
+e43cb94e6e6fe5a68679d8d52cb7b5de
+com.example.kanbansystem.entities.User#<init>()V
+com.example.kanbansystem.entities.User#instance-init#
+==
+!unknownMethod! !unknownMethod!
+getMessage com.example.kanbansystem.Response.AuthenticationResponse#getMessage()Ljava/lang/String;
+register com.example.kanbansystem.service.authService#register(Lcom/example/kanbansystem/entities/User;)Lcom/example/kanbansystem/Response/AuthenticationResponse;
+setEmail com.example.kanbansystem.entities.User#setEmail(Ljava/lang/String;)V
+setPassword com.example.kanbansystem.entities.User#setPassword(Ljava/lang/String;)V
+setUsername com.example.kanbansystem.entities.User#setUsername(Ljava/lang/String;)V

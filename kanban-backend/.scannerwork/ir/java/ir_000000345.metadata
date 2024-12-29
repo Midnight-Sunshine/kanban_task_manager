@@ -1,0 +1,9 @@
+com.example.kanbansystem.Controller.TestSprintController#testSaveSprint_Valid()V
+false
+45b77de4c719c90301f668c903f0f71f
+com.example.kanbansystem.entities.Sprint#<init>()V
+com.example.kanbansystem.entities.Sprint#instance-init#
+==
+!unknownMethod! !unknownMethod!
+saveSprint com.example.kanbansystem.controller.SprintController#saveSprint(Lcom/example/kanbansystem/entities/Sprint;)LResponseEntity;
+saveSprint com.example.kanbansystem.service.SprintService#saveSprint(Lcom/example/kanbansystem/entities/Sprint;)Lcom/example/kanbansystem/entities/Sprint;

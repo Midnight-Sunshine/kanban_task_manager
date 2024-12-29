@@ -1,0 +1,71 @@
+
+Ucom.example.kanbansystem.Response.AuthenticationResponse#toString()Ljava/lang/String;®
+ùC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/Response/AuthenticationResponse.java- -("1*∂
+1. .((n
+l
+. /(
+%0java.lang.String"__concat*'
+. .((
+AuthenticationResponse{*
+/ /(	
+user=•
+¢
+/ /(,
+%1&com.example.kanbansystem.entities.User"__id*b
+
+__unknown_file (F*D:
+8com.example.kanbansystem.Response.AuthenticationResponse"
+userë
+é
+. /(
+%2java.lang.String"__concat*$
+. /(
+
+%0java.lang.String*:
+/ /(.
+,
+%1&com.example.kanbansystem.entities.Userq
+o
+. 0(
+%3java.lang.String"__concat*$
+. /(
+
+%2java.lang.String*
+0 0(
+, message='í
+è
+0  0('
+%4java.lang.String"__id*e
+
+__unknown_file (I*G:
+8com.example.kanbansystem.Response.AuthenticationResponse"	
+messagez
+x
+. 0('
+%5java.lang.String"__concat*$
+. 0(
+
+%3java.lang.String*$
+0  0('
+
+%4java.lang.Stringh
+f
+. 0(.
+%6java.lang.String"__concat*$
+. 0('
+
+%5java.lang.String*
+0* 0(.
+\'g
+e
+. 1(
+%7java.lang.String"__concat*$
+. 0(.
+
+%6java.lang.String*
+1 1(
+}"$
+. 1(
+
+%7java.lang.StringB<:
+8com.example.kanbansystem.Response.AuthenticationResponseH

@@ -1,0 +1,8 @@
+com.example.kanbansystem.Controller.TestBoardController#testGetBoardById_NotFound()V
+false
+d291361c9cde8474b37f6da351c4ac63
+java.util.Optional#empty()Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+getBoardById com.example.kanbansystem.controller.BoardController#getBoardById(Ljava/lang/Long;)LResponseEntity;
+getBoardById com.example.kanbansystem.service.BoardService#getBoardById(Ljava/lang/Long;)Ljava/util/Optional;

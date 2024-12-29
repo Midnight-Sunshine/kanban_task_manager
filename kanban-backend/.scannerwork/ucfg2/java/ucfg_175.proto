@@ -1,0 +1,15 @@
+
+Ccom.example.kanbansystem.entities.Sprint#getTasks()Ljava/util/List;ò
+çC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/entities/Sprint.javaL L("1*∞
+1M M(}
+{
+M M(
+%0java.util.List"__id*S
+
+__unknown_file (7*5*
+(com.example.kanbansystem.entities.Sprint"
+tasks""
+M M(
+
+%0java.util.ListB,*
+(com.example.kanbansystem.entities.SprintH

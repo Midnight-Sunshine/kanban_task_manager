@@ -1,0 +1,8 @@
+com.example.kanbansystem.Service.TestUserService#testGetUserById_UserDoesNotExist()V
+false
+55a380663cdb747d653a8d147d0bd286
+java.util.Optional#empty()Ljava/util/Optional;
+java.util.Optional#isEmpty()Z
+==
+!unknownMethod! !unknownMethod!
+getUserById com.example.kanbansystem.service.UserService#getUserById(Ljava/lang/Long;)Ljava/util/Optional;

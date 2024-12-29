@@ -1,0 +1,11 @@
+com.example.kanbansystem.Controller.TestBoardController#testGetBoardById_Found()V
+false
+0b8dc9d23cf330e603cab1cbe46383b6
+com.example.kanbansystem.entities.Board#<init>()V
+com.example.kanbansystem.entities.Board#instance-init#
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+getBoardById com.example.kanbansystem.controller.BoardController#getBoardById(Ljava/lang/Long;)LResponseEntity;
+getBoardById com.example.kanbansystem.service.BoardService#getBoardById(Ljava/lang/Long;)Ljava/util/Optional;

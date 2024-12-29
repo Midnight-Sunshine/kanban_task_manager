@@ -1,0 +1,12 @@
+com.example.kanbansystem.service.authService#register(Lcom/example/kanbansystem/entities/User;)Lcom/example/kanbansystem/Response/AuthenticationResponse;
+false
+ab7b9eab2950606145bbdfb1b54a5a7c
+com.example.kanbansystem.Response.AuthenticationResponse#builder()Lcom/example/kanbansystem/Response/AuthenticationResponse$Builder;
+==
+!unknownMethod! !unknownMethod!
+build com.example.kanbansystem.Response.AuthenticationResponse$Builder#build()Lcom/example/kanbansystem/Response/AuthenticationResponse;
+getPassword com.example.kanbansystem.entities.User#getPassword()Ljava/lang/String;
+message com.example.kanbansystem.Response.AuthenticationResponse$Builder#message(Ljava/lang/String;)Lcom/example/kanbansystem/Response/AuthenticationResponse$Builder;
+setActive com.example.kanbansystem.entities.User#setActive(Z)V
+setPassword com.example.kanbansystem.entities.User#setPassword(Ljava/lang/String;)V
+setRoles com.example.kanbansystem.entities.User#setRoles(Ljava/lang/String;)V

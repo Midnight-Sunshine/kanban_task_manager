@@ -1,0 +1,6 @@
+com.example.kanbansystem.Service.TestSprintService#testDeleteSprintById()V
+false
+d647ee0142b1f79dd2e84ff00db3990b
+==
+!unknownMethod! !unknownMethod!
+deleteSprintById com.example.kanbansystem.service.SprintService#deleteSprintById(Ljava/lang/Long;)Ljava/lang/String;

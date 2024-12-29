@@ -1,0 +1,5 @@
+com.example.kanbansystem.controller.SprintController#getAllSprint()LResponseEntity;
+false
+6d60852909645796a68734ed1b9f37a9
+==
+getAllSprint com.example.kanbansystem.service.SprintService#getAllSprint()Ljava/util/List;

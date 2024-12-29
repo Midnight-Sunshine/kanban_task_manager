@@ -1,0 +1,7 @@
+com.example.kanbansystem.controller.SprintController#getsprintById(Ljava/lang/Long;)LResponseEntity;
+false
+5b72dad143a0f83078b20addbd4d76c4
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#isPresent()Z
+==
+getSprintById com.example.kanbansystem.service.SprintService#getSprintById(J)Ljava/util/Optional;

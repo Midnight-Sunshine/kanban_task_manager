@@ -1,0 +1,7 @@
+com.example.kanbansystem.Controller.TestSprintController#testGetSprintByName_NotFound()V
+false
+44002c8b1372dc0c07c4ca3277615877
+==
+!unknownMethod! !unknownMethod!
+getSprintByName com.example.kanbansystem.service.SprintService#getSprintByName(Ljava/lang/String;)Ljava/util/List;
+getTaskByName com.example.kanbansystem.controller.SprintController#getTaskByName(Ljava/lang/String;)LResponseEntity;

@@ -1,0 +1,11 @@
+com.example.kanbansystem.Service.TestTaskService#testGetTaskByName()V
+false
+93c2c18e359f7d13417f6be31b44a77b
+com.example.kanbansystem.entities.Task#<init>()V
+com.example.kanbansystem.entities.Task#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+findTaskByName com.example.kanbansystem.Repository.TaskRepository#findTaskByName(Ljava/lang/String;)Ljava/util/List;
+getTaskByName com.example.kanbansystem.service.TaskService#getTaskByName(Ljava/lang/String;)Ljava/util/List;
+size java.util.List#size()I

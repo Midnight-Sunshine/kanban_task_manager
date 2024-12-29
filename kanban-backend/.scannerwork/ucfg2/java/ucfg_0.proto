@@ -1,0 +1,27 @@
+
+ycom.example.kanbansystem.service.BoardService#getBoardByName(Ljava/lang/String;)Lcom/example/kanbansystem/entities/Board;ù
+íC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/service/BoardService.java ("1*˜
+1 (≤
+Ø
+ (9
+%03com.example.kanbansystem.Repository.BoardRepository"__id*b
+
+__unknown_file (F*D/
+-com.example.kanbansystem.service.BoardService"
+boardRepositoryıÚ
+ (4-
+%1'com.example.kanbansystem.entities.Board"Äcom.example.kanbansystem.Repository.BoardRepository#findBoardByName(Ljava/lang/String;)Lcom/example/kanbansystem/entities/Board;*W
+
+__unknown_file (;
+9
+%03com.example.kanbansystem.Repository.BoardRepository*6
+
+__unknown_file (
+
+namejava.lang.String2#findBoardByName(Ljava/lang/String;)";
+ (5/
+-
+%1'com.example.kanbansystem.entities.Board:$
+  (+
+namejava.lang.StringB1/
+-com.example.kanbansystem.service.BoardServiceH

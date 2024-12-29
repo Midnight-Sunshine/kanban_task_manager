@@ -1,0 +1,12 @@
+com.example.kanbansystem.Controller.TestSprintController#testGetSprintByName_Found()V
+false
+c8b4e8d6e67ab226bfc5598f0ed6a7c8
+com.example.kanbansystem.entities.Sprint#<init>()V
+com.example.kanbansystem.entities.Sprint#instance-init#
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+!unknownMethod! !unknownMethod!
+add java.util.List#add(Ljava/lang/Object;)Z
+getSprintByName com.example.kanbansystem.service.SprintService#getSprintByName(Ljava/lang/String;)Ljava/util/List;
+getTaskByName com.example.kanbansystem.controller.SprintController#getTaskByName(Ljava/lang/String;)LResponseEntity;

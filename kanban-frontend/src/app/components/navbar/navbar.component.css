@@ -1,0 +1,137 @@
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 999; /* Ensure it's above other elements */
+}
+.close-button {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 18px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #000;
+}
+
+.line {
+  background-color: #333;
+  height: 2px;
+  width: 20px;
+  margin: 2px;
+}
+
+.board-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0; /* Extend to the bottom of the viewport */
+  height: auto; /* Let content determine height */
+  width: 200px;
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.board-navbar ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  margin-bottom: auto; /* Pushes the buttons to the bottom */
+}
+
+.board-navbar li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.btn-sprints {
+  width: 100%;
+  background-color: #001f3f;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-sprints:hover {
+  background-color: #0d3660;
+}
+.board-navbar ul {
+  list-style: none;
+  padding: 20px 0 0; /* Adjust the top padding to give space */
+  width: 100%;
+  margin-bottom: auto; /* Pushes the buttons to the bottom */
+}
+
+.board-navbar li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.board-navbar li:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.board-navbar li:not(:last-child) {
+  border-bottom: 1px solid #ccc; /* Gray line between board names */
+  padding-bottom: 10px; /* Space between board names and the line */
+}
+
+.btn-sprints {
+  width: 100%;
+  background-color: #001f3f;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-sprints:hover {
+  background-color: #0d3660;
+}
+.btn-logout {
+  width: 100%;
+  background-color: #bd2005;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-logout:hover {
+  background-color: rgb(166, 4, 4);
+}
+
+
+

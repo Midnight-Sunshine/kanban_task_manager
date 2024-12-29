@@ -1,0 +1,29 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: docker:19.03.12
+    steps:
+      - checkout
+      - run:
+          name: Build and test Spring Boot app
+          command: |
+            docker build -t spring-kanban-app .
+            docker run --rm spring-kanban-app mvn test
+      - run:
+          name: Build Angular app
+          command: |
+            docker build -t angular-kanban-app src/main/kanbanSystem-front/front-web/kanban-web
+      - run:
+          name: Start all services declared in docker-compose.yml
+          command: docker-compose up -d
+      - run:
+          name: Stop services
+          command: docker-compose down
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build

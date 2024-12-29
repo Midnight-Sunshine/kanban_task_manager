@@ -1,0 +1,12 @@
+com.example.kanbansystem.Controller.TestSprintController#testGetAllSprint()V
+false
+201ae772854dc365baa29d4b3158cd31
+com.example.kanbansystem.entities.Sprint#<init>()V
+com.example.kanbansystem.entities.Sprint#instance-init#
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+!unknownMethod! !unknownMethod!
+add java.util.List#add(Ljava/lang/Object;)Z
+getAllSprint com.example.kanbansystem.controller.SprintController#getAllSprint()LResponseEntity;
+getAllSprint com.example.kanbansystem.service.SprintService#getAllSprint()Ljava/util/List;

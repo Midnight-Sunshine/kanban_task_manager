@@ -1,0 +1,103 @@
+
+ìcom.example.kanbansystem.security.MyuserDetailsService#addNewUser(Lcom/example/kanbansystem/entities/User;)Lcom/example/kanbansystem/entities/User;¶
+õC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/security/MyuserDetailsService.java! !("1*ƒ
+1" "(ˆÛ
+" "("
+
+%0void"Dcom.example.kanbansystem.entities.User#setRoles(Ljava/lang/String;)V*L
+
+__unknown_file (0
+.
+user&com.example.kanbansystem.entities.User*)
+
+__unknown_file (
+	ROLE_USER2setRoles(Ljava/lang/String;)Õ 
+# #(
+
+%1void"4com.example.kanbansystem.entities.User#setActive(Z)V*L
+
+__unknown_file (0
+.
+user&com.example.kanbansystem.entities.User* 
+
+__unknown_file (22setActive(Z) «
+% %("
+%2java.lang.String"Fcom.example.kanbansystem.entities.User#getUsername()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+user&com.example.kanbansystem.entities.User2getUsername() «
+&' &(9
+%3java.lang.String"Fcom.example.kanbansystem.entities.User#getPassword()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+user&com.example.kanbansystem.entities.User2getPassword()ƒ¡
+' '(
+%4java.lang.String"Ccom.example.kanbansystem.entities.User#getEmail()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+user&com.example.kanbansystem.entities.User2
+getEmail()™ß
+( ((
+%5boolean"2com.example.kanbansystem.entities.User#isActive()Z*L
+
+__unknown_file (0
+.
+user&com.example.kanbansystem.entities.User2
+isActive()ƒ¡
+) )(
+%6java.lang.String"Ccom.example.kanbansystem.entities.User#getRoles()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+user&com.example.kanbansystem.entities.User2
+getRoles()b`
+$ $(,
+%7&com.example.kanbansystem.entities.User"&com.example.kanbansystem.entities.UserÕ
+ 
+$ )( 
+%8"ycom.example.kanbansystem.entities.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)V*J
+
+__unknown_file (.
+,
+%7&com.example.kanbansystem.entities.User*4
+
+__unknown_file (
+
+%2java.lang.String*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%4java.lang.String*+
+
+__unknown_file (
+
+%5boolean*4
+
+__unknown_file (
+
+%6java.lang.Stringí
+è
+$ )(!1
+newUser&com.example.kanbansystem.entities.User"__id*J
+
+__unknown_file (.
+,
+%7&com.example.kanbansystem.entities.Userπ
+∂
+* *(8
+%92com.example.kanbansystem.Repository.UserRepository"__id*j
+
+__unknown_file (N*L8
+6com.example.kanbansystem.security.MyuserDetailsService"
+userRepository"
+* *(,
+""::
+! !($.
+user&com.example.kanbansystem.entities.UserB:8
+6com.example.kanbansystem.security.MyuserDetailsServiceH

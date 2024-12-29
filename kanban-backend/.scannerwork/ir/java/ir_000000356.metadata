@@ -1,0 +1,9 @@
+com.example.kanbansystem.Controller.TestTaskController#testGetAllTask()V
+false
+59069ebcf4ec00bb1626272b0fe38644
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+!unknownMethod! !unknownMethod!
+getAllTask com.example.kanbansystem.controller.TaskController#getAllTask()LResponseEntity;
+getAllTask com.example.kanbansystem.service.TaskService#getAllTask()Ljava/util/List;

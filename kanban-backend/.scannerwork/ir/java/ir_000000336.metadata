@@ -1,0 +1,7 @@
+com.example.kanbansystem.Controller.TestBoardController#testDeleteBoardById_Success()V
+false
+0a83cdd0a1cf5beeb4f35aca31d70859
+==
+!unknownMethod! !unknownMethod!
+deleteBoardById com.example.kanbansystem.controller.BoardController#deleteBoardById(Ljava/lang/Long;)LResponseEntity;
+deleteBoardById com.example.kanbansystem.service.BoardService#deleteBoardById(Ljava/lang/Long;)Ljava/lang/String;

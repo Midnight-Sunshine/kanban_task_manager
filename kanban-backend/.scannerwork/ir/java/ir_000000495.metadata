@@ -1,0 +1,14 @@
+com.example.kanbansystem.security.App_user#<init>(Lcom/example/kanbansystem/entities/User;)V
+false
+3affc2fa0ba1eb2f4882adce4a402647
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+java.util.Arrays#stream([Ljava/lang/Object;)Ljava/util/stream/Stream;
+java.util.stream.Collectors#toList()Ljava/util/stream/Collector;
+==
+!unknownMethod! !unknownMethod!
+getEmail com.example.kanbansystem.entities.User#getEmail()Ljava/lang/String;
+getPassword com.example.kanbansystem.entities.User#getPassword()Ljava/lang/String;
+getRoles com.example.kanbansystem.entities.User#getRoles()Ljava/lang/String;
+getUsername com.example.kanbansystem.entities.User#getUsername()Ljava/lang/String;
+isActive com.example.kanbansystem.entities.User#isActive()Z
+map java.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;

@@ -1,0 +1,16 @@
+<button class="toggle-button" id="sidebar" (click)="toggleNavbar()">
+  <span class="line"></span>
+  <span class="line"></span>
+  <span class="line"></span>
+</button>
+<button class="close-button" *ngIf="navbarVisible" (click)="toggleNavbar()">X</button>
+<nav class="board-navbar" *ngIf="navbarVisible">
+  <ul>
+    <li *ngFor="let board of boards" (click)="showTasks(board.id)">
+      {{ board.name }}
+    </li>
+  </ul>
+  <button class="btn-sprints" id="boardsButton" (click)="goToboards()">Boards</button><br>
+  <button class="btn-sprints" id="sprintsButton" (click)="goToSprint()">Sprints</button> <br>
+  <button class="btn-logout" (click)="Logout()">Logout</button>
+</nav>

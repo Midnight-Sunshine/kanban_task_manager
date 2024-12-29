@@ -1,0 +1,5 @@
+com.example.kanbansystem.controller.SprintController#getTaskByName(Ljava/lang/String;)LResponseEntity;
+false
+b0ebefd8d386934be71bc6012d8ab1e6
+==
+getSprintByName com.example.kanbansystem.service.SprintService#getSprintByName(Ljava/lang/String;)Ljava/util/List;

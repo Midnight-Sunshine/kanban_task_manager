@@ -1,0 +1,27 @@
+
+`com.example.kanbansystem.service.TaskService#getTasksByBoardId(Ljava/lang/Long;)Ljava/util/List;œ
+‘C:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/service/TaskService.java7 7('"1*Ÿ
+18 8(¯
+¬
+8 8(8
+%02com.example.kanbansystem.Repository.TaskRepository"__id*`
+
+__unknown_file (D*B.
+,com.example.kanbansystem.service.TaskService"
+taskRepository¹¶
+8 8(4
+%1java.util.List"bcom.example.kanbansystem.Repository.TaskRepository#findByBoardId(Ljava/lang/Long;)Ljava/util/List;*V
+
+__unknown_file (:
+8
+%02com.example.kanbansystem.Repository.TaskRepository*7
+
+__unknown_file (
+
+boardIdjava.lang.Long2findByBoardId(Ljava/lang/Long;)""
+8 8(5
+
+%1java.util.List:%
+7( 7(4
+boardIdjava.lang.LongB0.
+,com.example.kanbansystem.service.TaskServiceH

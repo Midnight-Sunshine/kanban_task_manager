@@ -1,0 +1,10 @@
+com.example.kanbansystem.Controller.TestUserController#testAddUser()V
+false
+b032229cd44e2377c76c51f4c5d94c21
+com.example.kanbansystem.entities.User#<init>()V
+com.example.kanbansystem.entities.User#instance-init#
+==
+!unknownMethod! !unknownMethod!
+addNewUser com.example.kanbansystem.security.MyuserDetailsService#addNewUser(Lcom/example/kanbansystem/entities/User;)Lcom/example/kanbansystem/entities/User;
+addUser com.example.kanbansystem.controller.UserController#addUser(Lcom/example/kanbansystem/entities/User;)Ljava/lang/String;
+setUsername com.example.kanbansystem.entities.User#setUsername(Ljava/lang/String;)V

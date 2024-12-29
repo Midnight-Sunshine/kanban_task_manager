@@ -1,0 +1,6 @@
+com.example.kanbansystem.Service.TestEmailService#testSendEmail_ContentValidation()V
+false
+2373953ede70df76ab11d8af4aad473a
+==
+!unknownMethod! !unknownMethod!
+sendEmail com.example.kanbansystem.service.EmailService#sendEmail(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

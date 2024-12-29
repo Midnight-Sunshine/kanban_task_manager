@@ -1,0 +1,243 @@
+
+Ccom.example.kanbansystem.entities.User#toString()Ljava/lang/String;ò
+ãC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/entities/User.javaá á("1*√
+1
+à à(`
+^
+
+à â(
+%0java.lang.String"__concat*
+
+à à(	
+User{*
+
+â â(
+id=z
+x
+
+â â(
+%1java.lang.Long"__id*N
+
+__unknown_file (2*0(
+&com.example.kanbansystem.entities.User"
+id~
+|
+
+à â(
+%2java.lang.String"__concat*&
+
+à â(
+
+%0java.lang.String*$
+
+â â(
+
+%1java.lang.Longx
+v
+
+à ä(
+%3java.lang.String"__concat*&
+
+à â(
+
+%2java.lang.String*
+
+ä ä(
+, username='É
+Ä
+
+ä! ä()
+%4java.lang.String"__id*T
+
+__unknown_file (8*6(
+&com.example.kanbansystem.entities.User"
+
+usernameÄ
+~
+
+à ä()
+%5java.lang.String"__concat*&
+
+à ä(
+
+%3java.lang.String*&
+
+ä! ä()
+
+%4java.lang.Stringn
+l
+
+à ä(0
+%6java.lang.String"__concat*&
+
+à ä()
+
+%5java.lang.String*
+
+ä, ä(0
+\'x
+v
+
+à ã(
+%7java.lang.String"__concat*&
+
+à ä(0
+
+%6java.lang.String*
+
+ã ã(
+, password='É
+Ä
+
+ã! ã()
+%8java.lang.String"__id*T
+
+__unknown_file (8*6(
+&com.example.kanbansystem.entities.User"
+
+passwordÄ
+~
+
+à ã()
+%9java.lang.String"__concat*&
+
+à ã(
+
+%7java.lang.String*&
+
+ã! ã()
+
+%8java.lang.Stringo
+m
+
+à ã(0
+%10java.lang.String"__concat*&
+
+à ã()
+
+%9java.lang.String*
+
+ã, ã(0
+\'w
+u
+
+à å(
+%11java.lang.String"__concat*'
+
+à ã(0
+
+%10java.lang.String*
+
+å å(
+	, email='Ä
+~
+
+å å(#
+%12java.lang.String"__id*Q
+
+__unknown_file (5*3(
+&com.example.kanbansystem.entities.User"
+emailÑ
+Å
+
+à å(#
+%13java.lang.String"__concat*'
+
+à å(
+
+%11java.lang.String*'
+
+å å(#
+
+%12java.lang.Stringp
+n
+
+à å(*
+%14java.lang.String"__concat*'
+
+à å(#
+
+%13java.lang.String*
+
+å& å(*
+\'w
+u
+
+à ç(
+%15java.lang.String"__concat*'
+
+à å(*
+
+%14java.lang.String*
+
+ç ç(
+	, active=p
+n
+
+à ç($
+%16java.lang.String"__concat*'
+
+à ç(
+
+%15java.lang.String*
+
+ç ç($
+""w
+u
+
+à é(
+%17java.lang.String"__concat*'
+
+à ç($
+
+%16java.lang.String*
+
+é é(
+	, roles='Ä
+~
+
+é é(#
+%18java.lang.String"__id*Q
+
+__unknown_file (5*3(
+&com.example.kanbansystem.entities.User"
+rolesÑ
+Å
+
+à é(#
+%19java.lang.String"__concat*'
+
+à é(
+
+%17java.lang.String*'
+
+é é(#
+
+%18java.lang.Stringp
+n
+
+à é(*
+%20java.lang.String"__concat*'
+
+à é(#
+
+%19java.lang.String*
+
+é& é(*
+\'o
+m
+
+à è(
+%21java.lang.String"__concat*'
+
+à é(*
+
+%20java.lang.String*
+
+è è(
+}"'
+
+à è(
+
+%21java.lang.StringB*(
+&com.example.kanbansystem.entities.UserH

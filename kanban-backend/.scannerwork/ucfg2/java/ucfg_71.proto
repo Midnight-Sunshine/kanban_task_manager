@@ -1,0 +1,17 @@
+
+±com.example.kanbansystem.Response.AuthenticationResponse$Builder#user(Lcom/example/kanbansystem/entities/User;)Lcom/example/kanbansystem/Response/AuthenticationResponse$Builder;®
+ùC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/Response/AuthenticationResponse.java9 9("1*ë
+1: :(Ø
+¨
+: :(LB
+@com.example.kanbansystem.Response.AuthenticationResponse$Builder"
+user"__id*L
+
+__unknown_file (0
+.
+user&com.example.kanbansystem.entities.User"P
+; ;(DB
+@com.example.kanbansystem.Response.AuthenticationResponse$Builder::
+9 9(%.
+user&com.example.kanbansystem.entities.UserBDB
+@com.example.kanbansystem.Response.AuthenticationResponse$BuilderH

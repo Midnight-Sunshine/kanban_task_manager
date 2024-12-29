@@ -1,0 +1,12 @@
+com.example.kanbansystem.Controller.TestTaskController#testSaveTask_InvalidBoard()V
+false
+6715ce5927206f4fd5c94aae65bc6d14
+com.example.kanbansystem.dto.TaskDTO#<init>()V
+com.example.kanbansystem.dto.TaskDTO#instance-init#
+java.util.Optional#empty()Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+getBoardById com.example.kanbansystem.service.BoardService#getBoardById(Ljava/lang/Long;)Ljava/util/Optional;
+getBoardId com.example.kanbansystem.dto.TaskDTO#getBoardId()Ljava/lang/Long;
+saveTask com.example.kanbansystem.controller.TaskController#saveTask(Lcom/example/kanbansystem/dto/TaskDTO;)LResponseEntity;
+setBoardId com.example.kanbansystem.dto.TaskDTO#setBoardId(Ljava/lang/Long;)V

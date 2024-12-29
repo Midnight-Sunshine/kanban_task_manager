@@ -1,0 +1,5 @@
+com.example.kanbansystem.controller.UserController#getUserByUsername(Ljava/lang/String;)LResponseEntity;
+false
+6a28753dc2ab765e2614185d0840ba09
+==
+findUserByUsername com.example.kanbansystem.security.MyuserDetailsService#findUserByUsername(Ljava/lang/String;)Lcom/example/kanbansystem/entities/User;

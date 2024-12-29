@@ -1,0 +1,75 @@
+
+™com.example.kanbansystem.service.authService#register(Lcom/example/kanbansystem/entities/User;)Lcom/example/kanbansystem/Response/AuthenticationResponse;œ
+‘C:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/service/authService.java" (*"1*à
+1 (ÊÇ
+ (+
+%0java.lang.String"Fcom.example.kanbansystem.entities.User#getPassword()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+user&com.example.kanbansystem.entities.User2getPassword()‡„
+ (,
+
+%1void"Gcom.example.kanbansystem.entities.User#setPassword(Ljava/lang/String;)V*L
+
+__unknown_file (0
+.
+user&com.example.kanbansystem.entities.User*4
+
+__unknown_file (
+
+%0java.lang.String2setPassword(Ljava/lang/String;)öó
+ ("
+
+%2void"Dcom.example.kanbansystem.entities.User#setRoles(Ljava/lang/String;)V*L
+
+__unknown_file (0
+.
+user&com.example.kanbansystem.entities.User*)
+
+__unknown_file (
+	ROLE_USER2setRoles(Ljava/lang/String;)ÍÊ
+ (
+
+%3void"4com.example.kanbansystem.entities.User#setActive(Z)V*L
+
+__unknown_file (0
+.
+user&com.example.kanbansystem.entities.User* 
+
+__unknown_file (22setActive(Z)«
+¨
+ (8
+%42com.example.kanbansystem.Repository.UserRepository"__id*\
+
+__unknown_file (@*>.
+,com.example.kanbansystem.service.authService"
+
+repository¶
+³
+ (/F
+%5@com.example.kanbansystem.Response.AuthenticationResponse$Builder"„com.example.kanbansystem.Response.AuthenticationResponse#builder()Lcom/example/kanbansystem/Response/AuthenticationResponse$Builder;*X
+
+__unknown_file (<":
+8com.example.kanbansystem.Response.AuthenticationResponse·´
+ (8F
+%6@com.example.kanbansystem.Response.AuthenticationResponse$Builder"žcom.example.kanbansystem.Response.AuthenticationResponse$Builder#message(Ljava/lang/String;)Lcom/example/kanbansystem/Response/AuthenticationResponse$Builder;*d
+
+__unknown_file (H
+F
+%5@com.example.kanbansystem.Response.AuthenticationResponse$Builder*<
+
+__unknown_file ( 
+User registered successfully2message(Ljava/lang/String;)Á¾
+ (>
+%78com.example.kanbansystem.Response.AuthenticationResponse"‚com.example.kanbansystem.Response.AuthenticationResponse$Builder#build()Lcom/example/kanbansystem/Response/AuthenticationResponse;*d
+
+__unknown_file (H
+F
+%6@com.example.kanbansystem.Response.AuthenticationResponse$Builder2build()"L
+ (@
+>
+%78com.example.kanbansystem.Response.AuthenticationResponse::
++ (4.
+user&com.example.kanbansystem.entities.UserB0.
+,com.example.kanbansystem.service.authServiceH

@@ -1,0 +1,7 @@
+organization=sonar-testing-mahdy
+projectKey=sonar-testing-mahdy_kanban-test
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.58741
+dashboardUrl=https://sonarcloud.io/dashboard?id=sonar-testing-mahdy_kanban-test
+ceTaskId=AZQE3-wHDiKDBw3B31vf
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZQE3-wHDiKDBw3B31vf

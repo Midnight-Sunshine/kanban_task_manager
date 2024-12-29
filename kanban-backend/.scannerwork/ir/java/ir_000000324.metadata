@@ -1,0 +1,5 @@
+com.example.kanbansystem.security.MyuserDetailsService#findUserByUsername(Ljava/lang/String;)Lcom/example/kanbansystem/entities/User;
+false
+9a53acbb79aec0d53b44be65dbc1d33b
+==
+findByUsername com.example.kanbansystem.Repository.UserRepository#findByUsername(Ljava/lang/String;)Lcom/example/kanbansystem/entities/User;

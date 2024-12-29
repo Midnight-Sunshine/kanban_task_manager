@@ -1,0 +1,10 @@
+com.example.kanbansystem.Service.TestSprintService#testGetAllSprint()V
+false
+92d690babd377292c795f68a068aabde
+com.example.kanbansystem.entities.Sprint#<init>()V
+com.example.kanbansystem.entities.Sprint#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+getAllSprint com.example.kanbansystem.service.SprintService#getAllSprint()Ljava/util/List;
+size java.util.List#size()I

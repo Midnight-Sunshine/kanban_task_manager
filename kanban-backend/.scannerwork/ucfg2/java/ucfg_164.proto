@@ -1,0 +1,154 @@
+
+Dcom.example.kanbansystem.entities.Board#toString()Ljava/lang/String;—
+ŒC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/entities/Board.javao o("1*˜
+1p p([
+Y
+p q(
+%0java.lang.String"__concat*
+p p(
+
+Board{*
+q q(
+id=y
+w
+q q(
+%1java.lang.Long"__id*O
+
+__unknown_file (3*1)
+'com.example.kanbansystem.entities.Board"
+idx
+v
+p q(
+%2java.lang.String"__concat*$
+p q(
+
+%0java.lang.String*"
+q q(
+
+%1java.lang.Longn
+l
+p r(
+%3java.lang.String"__concat*$
+p q(
+
+%2java.lang.String*
+r r(
+
+, name='}
+{
+r r(!
+%4java.lang.String"__id*Q
+
+__unknown_file (5*3)
+'com.example.kanbansystem.entities.Board"
+namez
+x
+p r(!
+%5java.lang.String"__concat*$
+p r(
+
+%3java.lang.String*$
+r r(!
+
+%4java.lang.Stringh
+f
+p r((
+%6java.lang.String"__concat*$
+p r(!
+
+%5java.lang.String*
+r$ r((
+\'u
+s
+p s(!
+%7java.lang.String"__concat*$
+p r((
+
+%6java.lang.String*
+s s(!
+, description='…
+‚
+s$ s(/
+%8java.lang.String"__id*X
+
+__unknown_file (<*:)
+'com.example.kanbansystem.entities.Board"
+descriptionz
+x
+p s(/
+%9java.lang.String"__concat*$
+p s(!
+
+%7java.lang.String*$
+s$ s(/
+
+%8java.lang.Stringi
+g
+p s(6
+%10java.lang.String"__concat*$
+p s(/
+
+%9java.lang.String*
+s2 s(6
+\'w
+u
+p t(!
+%11java.lang.String"__concat*%
+p s(6
+
+%10java.lang.String*
+t t(!
+, dateCreation=…
+‚
+t$ t(0
+%12java.util.Date"__id*Y
+
+__unknown_file (=*;)
+'com.example.kanbansystem.entities.Board"
+dateCreation{
+y
+p t(0
+%13java.lang.String"__concat*%
+p t(!
+
+%11java.lang.String*#
+t$ t(0
+
+%12java.util.Datep
+n
+p u(
+%14java.lang.String"__concat*%
+p t(0
+
+%13java.lang.String*
+u u(
+
+, tasks=}
+{
+u u("
+%15java.util.List"__id*R
+
+__unknown_file (6*4)
+'com.example.kanbansystem.entities.Board"
+tasks{
+y
+p u("
+%16java.lang.String"__concat*%
+p u(
+
+%14java.lang.String*#
+u u("
+
+%15java.util.Listi
+g
+p v(
+%17java.lang.String"__concat*%
+p u("
+
+%16java.lang.String*
+v v(
+}"%
+p v(
+
+%17java.lang.StringB+)
+'com.example.kanbansystem.entities.BoardH

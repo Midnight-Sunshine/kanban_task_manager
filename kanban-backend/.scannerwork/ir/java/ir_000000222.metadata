@@ -1,0 +1,5 @@
+com.example.kanbansystem.service.BoardService#getBoardByName(Ljava/lang/String;)Lcom/example/kanbansystem/entities/Board;
+false
+ab8b08010b5b2570d8a2ccd0c1d9faa8
+==
+findBoardByName com.example.kanbansystem.Repository.BoardRepository#findBoardByName(Ljava/lang/String;)Lcom/example/kanbansystem/entities/Board;

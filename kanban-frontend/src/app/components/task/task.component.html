@@ -1,0 +1,61 @@
+<app-board-navbar [boards]="boards"></app-board-navbar>
+<div class="container">
+  <h3>{{ tasks.length ? tasks[0].board.name : 'Board Name' }}</h3>
+  <div class="kanban-board">
+    <!-- Todo Section -->
+    <div class="kanban-column" (dragover)="onDragOver($event)">
+      <h2>To Do</h2>
+      <div class="card" *ngFor="let task of filterTasks(TaskStatus.TODO)" [attr.draggable]="true" (dragstart)="onDragStart($event, task)" (drop)="onDrop($event, TaskStatus.TODO)">
+        <div class="card-header">
+          <a [routerLink]="['/task', task.id]"><strong>{{ task.name }}</strong><br></a>
+          <div class="dropdown" *ngIf="userRole === 'ROLE_ADMIN'">
+            <button class="dropdown-button" (click)="toggleDropdown($event)">...</button>
+            <div class="dropdown-content">
+              <a (click)="deleteTask(task.id)">Delete</a>
+              <a [routerLink]="['/task', task.id]">Update</a>
+            </div>
+          </div>
+        </div>   
+      </div>
+      <button *ngIf="userRole === 'ROLE_ADMIN'" class="add-task-button" id="addTask" (click)="navigateToAddTask()">Add Task</button>
+    </div>
+    <!-- In Progress Section -->
+    <div class="kanban-column" (dragover)="onDragOver($event)">
+      <h2>In Progress</h2>
+      <div class="card" *ngFor="let task of filterTasks(TaskStatus.IN_PROGRESS)" [attr.draggable]="true" (dragstart)="onDragStart($event, task)" (drop)="onDrop($event, TaskStatus.IN_PROGRESS)">
+        <div class="card-header">
+          <a [routerLink]="['/task', task.id]"><strong>{{ task.name }}</strong><br></a>
+          <div class="dropdown" *ngIf="userRole === 'ROLE_ADMIN'">
+            <button class="dropdown-button" (click)="toggleDropdown($event)">...</button>
+            <div class="dropdown-content">
+              <a (click)="deleteTask(task.id)">Delete</a>
+              <a [routerLink]="['/task', task.id]">Update</a>
+            </div>
+          </div>
+        </div>  
+       
+      </div>
+      
+      <button *ngIf="userRole === 'ROLE_ADMIN'" class="add-task-button" (click)="navigateToAddTask()"> Add Task </button>
+    </div>
+    <!-- Done Section -->
+      <div class="kanban-column" (dragover)="onDragOver($event)">
+        <h2>Done</h2>
+        <div class="card" *ngFor="let task of filterTasks(TaskStatus.DONE)" [attr.draggable]="true" (dragstart)="onDragStart($event, task)" (drop)="onDrop($event, TaskStatus.DONE)">
+            <div class="card-header"> 
+            <a [routerLink]="['/task', task.id]"><strong>{{ task.name }}</strong><br></a>
+            <div class="dropdown" *ngIf="userRole === 'ROLE_ADMIN'">
+              <button class="dropdown-button" (click)="toggleDropdown($event)">...</button>
+              <div class="dropdown-content">
+                <a (click)="deleteTask(task.id)">Delete</a>
+                <a [routerLink]="['/task', task.id]">Update</a>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <button *ngIf="userRole === 'ROLE_ADMIN'" class="add-task-button" (click)="navigateToAddTask()">Add Task</button>    
+      </div>
+      
+  </div>
+</div>
+  

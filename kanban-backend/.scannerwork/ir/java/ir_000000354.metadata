@@ -1,0 +1,10 @@
+com.example.kanbansystem.Controller.TestTaskController#testGetTaskById_Found()V
+false
+1b8f1ab3c28e495056621d36f03437f5
+com.example.kanbansystem.entities.Task#<init>()V
+com.example.kanbansystem.entities.Task#instance-init#
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+getTaskById com.example.kanbansystem.controller.TaskController#getTaskById(Ljava/lang/Long;)LResponseEntity;
+getTaskById com.example.kanbansystem.service.TaskService#getTaskById(Ljava/lang/Long;)Ljava/util/Optional;

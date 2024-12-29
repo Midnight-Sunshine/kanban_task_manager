@@ -1,0 +1,228 @@
+
+Acom.example.kanbansystem.dto.TaskDTO#toString()Ljava/lang/String;î
+âC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/dto/TaskDTO.javac c("1*ü
+1d d(]
+[
+d e(
+%0java.lang.String"__concat*
+d d(
+
+TaskDTO{*
+e e(
+id=v
+t
+e e(
+%1java.lang.Long"__id*L
+
+__unknown_file (0*.&
+$com.example.kanbansystem.dto.TaskDTO"
+idx
+v
+d e(
+%2java.lang.String"__concat*$
+d e(
+
+%0java.lang.String*"
+e e(
+
+%1java.lang.Longn
+l
+d f(
+%3java.lang.String"__concat*$
+d e(
+
+%2java.lang.String*
+f f(
+
+, name='z
+x
+f f(!
+%4java.lang.String"__id*N
+
+__unknown_file (2*0&
+$com.example.kanbansystem.dto.TaskDTO"
+namez
+x
+d f(!
+%5java.lang.String"__concat*$
+d f(
+
+%3java.lang.String*$
+f f(!
+
+%4java.lang.Stringh
+f
+d f((
+%6java.lang.String"__concat*$
+d f(!
+
+%5java.lang.String*
+f$ f((
+\'u
+s
+d g(!
+%7java.lang.String"__concat*$
+d f((
+
+%6java.lang.String*
+g g(!
+, description='Å
+
+g$ g(/
+%8java.lang.String"__id*U
+
+__unknown_file (9*7&
+$com.example.kanbansystem.dto.TaskDTO"
+descriptionz
+x
+d g(/
+%9java.lang.String"__concat*$
+d g(!
+
+%7java.lang.String*$
+g$ g(/
+
+%8java.lang.Stringi
+g
+d g(6
+%10java.lang.String"__concat*$
+d g(/
+
+%9java.lang.String*
+g2 g(6
+\'q
+o
+d h(
+%11java.lang.String"__concat*%
+d g(6
+
+%10java.lang.String*
+h h(
+	, status=ö
+ó
+h h($3
+%12,com.example.kanbansystem.entities.TaskStatus"__id*P
+
+__unknown_file (4*2&
+$com.example.kanbansystem.dto.TaskDTO"
+statusö
+ó
+d h($
+%13java.lang.String"__concat*%
+d h(
+
+%11java.lang.String*A
+h h($5
+3
+%12,com.example.kanbansystem.entities.TaskStatusu
+s
+d i(
+%14java.lang.String"__concat*%
+d h($
+
+%13java.lang.String*
+i i(
+, estimation=É
+Ä
+i" i(,
+%15java.lang.Integer"__id*T
+
+__unknown_file (8*6&
+$com.example.kanbansystem.dto.TaskDTO"
+
+estimation~
+|
+d i(,
+%16java.lang.String"__concat*%
+d i(
+
+%14java.lang.String*&
+i" i(,
+
+%15java.lang.Integerr
+p
+d j(
+%17java.lang.String"__concat*%
+d i(,
+
+%16java.lang.String*
+j j(
+
+, boardId=|
+z
+j j(&
+%18java.lang.Long"__id*Q
+
+__unknown_file (5*3&
+$com.example.kanbansystem.dto.TaskDTO"	
+boardId{
+y
+d j(&
+%19java.lang.String"__concat*%
+d j(
+
+%17java.lang.String*#
+j j(&
+
+%18java.lang.Longr
+p
+d k(
+%20java.lang.String"__concat*%
+d j(&
+
+%19java.lang.String*
+k k(
+
+, userIds=|
+z
+k k(&
+%21java.util.List"__id*Q
+
+__unknown_file (5*3&
+$com.example.kanbansystem.dto.TaskDTO"	
+userIds{
+y
+d k(&
+%22java.lang.String"__concat*%
+d k(
+
+%20java.lang.String*#
+k k(&
+
+%21java.util.Listt
+r
+d l(
+%23java.lang.String"__concat*%
+d k(&
+
+%22java.lang.String*
+l l(
+, sprintIds=~
+|
+l! l(*
+%24java.util.List"__id*S
+
+__unknown_file (7*5&
+$com.example.kanbansystem.dto.TaskDTO"
+	sprintIds{
+y
+d l(*
+%25java.lang.String"__concat*%
+d l(
+
+%23java.lang.String*#
+l! l(*
+
+%24java.util.Listi
+g
+d m(
+%26java.lang.String"__concat*%
+d l(*
+
+%25java.lang.String*
+m m(
+}"%
+d m(
+
+%26java.lang.StringB(&
+$com.example.kanbansystem.dto.TaskDTOH

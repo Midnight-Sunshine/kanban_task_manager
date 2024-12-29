@@ -1,0 +1,8 @@
+com.example.kanbansystem.controller.UserController#register(Lcom/example/kanbansystem/entities/User;)LResponseEntity;
+false
+f44aa82a751649213f9c36252622d632
+==
+!unknownMethod! !unknownMethod!
+println java.io.PrintStream#println(Ljava/lang/Object;)V
+println java.io.PrintStream#println(Ljava/lang/String;)V
+register com.example.kanbansystem.service.authService#register(Lcom/example/kanbansystem/entities/User;)Lcom/example/kanbansystem/Response/AuthenticationResponse;

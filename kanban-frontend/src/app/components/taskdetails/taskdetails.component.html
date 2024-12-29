@@ -1,0 +1,91 @@
+<app-board-navbar [boards]="boards"></app-board-navbar>
+
+<div *ngIf="task" class="task-details">
+  <div class="details">
+    <h2 class="title">Task Details</h2>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        class="form-control"
+        [(ngModel)]="task.name"
+        [disabled]="userRole !== 'ROLE_ADMIN'"
+      />
+    </div>
+    <div class="form-group">
+      <label for="description">Description:</label>
+      <textarea
+        id="description"
+        class="form-control"
+        [(ngModel)]="task.description"
+        [disabled]="!isMemberOrAdmin()"
+      ></textarea>
+    </div>
+    <div class="form-group">
+      <label for="estimation">Estimation:</label><br />
+      <input
+        type="number"
+        id="estimation"
+        class="form-control"
+        [(ngModel)]="task.estimation"
+        [disabled]="userRole !== 'ROLE_ADMIN'"
+      />
+    </div>
+    <div class="form-group">
+      <label for="status">Status:</label>
+      <select
+        id="status"
+        class="form-control"
+        [(ngModel)]="task.status"
+        [disabled]="!isMemberOrAdmin()"
+      >
+        <option value="TODO">TODO</option>
+        <option value="IN_PROGRESS">IN_PROGRESS</option>
+        <option value="DONE">DONE</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="users">Members:</label>
+      <div class="user-circles">
+        <div
+          *ngFor="let user of users"
+          class="user-circle"
+          [class.selected]="selectedUserIds.includes(user.id)"
+          [class.disabled]="userRole !== 'ROLE_ADMIN'"
+          (click)="toggleUser(user.id)"
+        >
+          {{ user.username.charAt(0) }}
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="sprints">Sprints:</label>
+      <select
+        id="sprints"
+        name="sprints"
+        [(ngModel)]="selectedSprintIds"
+        class="form-select"
+        multiple
+        required
+        [disabled]="userRole !== 'ROLE_ADMIN'"
+      >
+        <option
+          *ngFor="let sprint of sprints"
+          [value]="sprint.id"
+          [selected]="selectedSprintIds.includes(sprint.id)"
+        >
+          {{ sprint.name }} ({{ sprint.startDate | date: 'mediumDate' }} -
+          {{ sprint.endDate | date: 'mediumDate' }})
+        </option>
+      </select>
+    </div>
+    <button
+      *ngIf="userRole === 'ROLE_ADMIN' || isMemberOrAdmin()"
+      class="btn btn-primary"
+      (click)="updateTask()"
+    >
+      Save Changes
+    </button>
+  </div>
+</div>

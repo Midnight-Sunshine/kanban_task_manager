@@ -1,0 +1,5 @@
+com.example.kanbansystem.controller.TaskController#getTaskByName(Ljava/lang/String;)LResponseEntity;
+false
+f1bc6978c1fb450e354ea50440f9390a
+==
+getTaskByName com.example.kanbansystem.service.TaskService#getTaskByName(Ljava/lang/String;)Ljava/util/List;

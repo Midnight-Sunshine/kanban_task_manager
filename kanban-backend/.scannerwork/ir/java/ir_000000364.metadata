@@ -1,0 +1,11 @@
+com.example.kanbansystem.Controller.TestTaskController#testUpdateTask_Failure()V
+false
+8f48f42cb125464387be3ffb70c57604
+com.example.kanbansystem.dto.TaskDTO#<init>()V
+com.example.kanbansystem.dto.TaskDTO#instance-init#
+java.lang.RuntimeException#<init>(Ljava/lang/String;)V
+java.lang.RuntimeException#instance-init#
+==
+!unknownMethod! !unknownMethod!
+updateTask com.example.kanbansystem.controller.TaskController#updateTask(Lcom/example/kanbansystem/dto/TaskDTO;)LResponseEntity;
+updateTaskFromDTO com.example.kanbansystem.service.TaskService#updateTaskFromDTO(Lcom/example/kanbansystem/dto/TaskDTO;)Lcom/example/kanbansystem/entities/Task;

@@ -1,0 +1,10 @@
+com.example.kanbansystem.Service.TestTaskService#testGetAllTask()V
+false
+9bffd3455e75b1e5d343451dc341f0df
+com.example.kanbansystem.entities.Task#<init>()V
+com.example.kanbansystem.entities.Task#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+getAllTask com.example.kanbansystem.service.TaskService#getAllTask()Ljava/util/List;
+size java.util.List#size()I

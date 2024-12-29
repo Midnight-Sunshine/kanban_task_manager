@@ -1,0 +1,15 @@
+
+Acom.example.kanbansystem.entities.User#getTasks()Ljava/util/List;–
+‹C:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/entities/User.java} }("1*®
+1~ ~({
+y
+~ ~(
+%0java.util.List"__id*Q
+
+__unknown_file (5*3(
+&com.example.kanbansystem.entities.User"
+tasks""
+~ ~(
+
+%0java.util.ListB*(
+&com.example.kanbansystem.entities.UserH

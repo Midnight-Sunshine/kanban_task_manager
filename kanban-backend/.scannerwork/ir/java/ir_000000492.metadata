@@ -1,0 +1,5 @@
+com.example.kanbansystem.security.SecurityConfig#myUserDetailsService()LUserDetailsService;
+false
+ab550609a0fe55d243365222f449cb01
+com.example.kanbansystem.security.MyuserDetailsService#<init>()V
+com.example.kanbansystem.security.MyuserDetailsService#instance-init#

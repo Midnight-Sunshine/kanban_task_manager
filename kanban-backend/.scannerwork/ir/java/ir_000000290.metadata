@@ -1,0 +1,8 @@
+com.example.kanbansystem.Service.TestTaskService#testSaveTask()V
+false
+e18bbcf390f0dc88dc7c719f3d250da2
+com.example.kanbansystem.entities.Task#<init>()V
+com.example.kanbansystem.entities.Task#instance-init#
+==
+!unknownMethod! !unknownMethod!
+saveTask com.example.kanbansystem.service.TaskService#saveTask(Lcom/example/kanbansystem/entities/Task;)Lcom/example/kanbansystem/entities/Task;

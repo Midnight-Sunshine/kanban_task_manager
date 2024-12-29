@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+header {
+  background-color: #001f3f;
+  padding: 20px 0;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.nav-buttons .btn {
+  margin-left: 10px;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: bold;
+}
+
+.nav-buttons .btn-primary {
+  background-color: #001f3f;
+  border-color: #001f3f;
+}
+
+.nav-buttons .btn-primary:hover {
+  background-color: #003366;
+  border-color: #003366;
+}
+
+.nav-buttons .btn-outline-light {
+  color: #ffffff;
+  border-color: #001f3f;
+  background-color: #003366;
+}
+
+.nav-buttons .btn-outline-light:hover {
+  color: white;
+  background-color: #001f3f;
+  border-color: #001f3f;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  color: #001f3f;
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero p {
+  color: #6c757d;
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+footer {
+  background-color: #001f3f;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  /* position: fixed; */ /* Remove this line */
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+footer p {
+  margin-bottom: 0;
+}

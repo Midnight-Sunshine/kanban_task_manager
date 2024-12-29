@@ -1,0 +1,6 @@
+com.example.kanbansystem.Service.TestTaskService#testDeleteTaskById()V
+false
+183832548b0e7f58a13ea8f861ff7537
+==
+!unknownMethod! !unknownMethod!
+deleteTaskById com.example.kanbansystem.service.TaskService#deleteTaskById(Ljava/lang/Long;)Ljava/lang/String;

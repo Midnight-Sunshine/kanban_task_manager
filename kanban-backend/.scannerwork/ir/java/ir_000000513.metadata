@@ -1,0 +1,6 @@
+com.example.kanbansystem.controller.UserController#authenticate(Lcom/example/kanbansystem/Response/AuthenticationRequest;)LResponseEntity;
+false
+e491b9fa4d2a7ca5ec63804779bbe2aa
+==
+!unknownMethod! !unknownMethod!
+authenticate com.example.kanbansystem.service.authService#authenticate(Lcom/example/kanbansystem/Response/AuthenticationRequest;)Lcom/example/kanbansystem/Response/AuthenticationResponse;

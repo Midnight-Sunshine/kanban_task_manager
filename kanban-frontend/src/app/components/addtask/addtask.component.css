@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Full width */
+  height: 100vh; /* Full viewport height */
+  padding: 0 20px; /* Optional padding */
+  background: linear-gradient(to right, #ffffff, #f3f4f6, #ffffff); /* Create a linear gradient for the background */
+  animation: flowBackground 10s infinite alternate; /* Apply animation to create flowing effect */
+}
+
+@keyframes flowBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.card {
+  width: 450px; /* Set the width */
+  max-width: 100%; /* Ensure it doesn't overflow parent container */
+  padding: 50px 40px; /* Padding */
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Shadow */
+  margin-left: 340px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+
+}
+
+.card-header{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+.card-content {
+  padding: 20px; /* Content padding */
+}
+
+.form-label {
+  font-weight: bold;
+  color: #333333; /* Label text color */
+}
+
+.form-control,
+.form-select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Margin between form elements */
+  font-size: 16px; /* Font size */
+}
+
+button {
+  background-color: #00346b; /* Button background color */
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px; /* Button padding */
+  font-size: 18px; /* Button font size */
+  color: #fff; /* Button text color */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #007bff; /* Button hover background color */
+}
+.user-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.user-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-circle.selected {
+  background-color: #007bff;
+  color: #fff;
+}

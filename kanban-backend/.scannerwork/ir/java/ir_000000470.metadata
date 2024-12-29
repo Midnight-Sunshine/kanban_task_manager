@@ -1,0 +1,10 @@
+com.example.kanbansystem.Controller.TestUserController#testGetUserByUsername_Found()V
+false
+8eed5ca215cfd02a519b484b10c5f75b
+com.example.kanbansystem.entities.User#<init>()V
+com.example.kanbansystem.entities.User#instance-init#
+==
+!unknownMethod! !unknownMethod!
+findUserByUsername com.example.kanbansystem.security.MyuserDetailsService#findUserByUsername(Ljava/lang/String;)Lcom/example/kanbansystem/entities/User;
+getUserByUsername com.example.kanbansystem.controller.UserController#getUserByUsername(Ljava/lang/String;)LResponseEntity;
+setUsername com.example.kanbansystem.entities.User#setUsername(Ljava/lang/String;)V

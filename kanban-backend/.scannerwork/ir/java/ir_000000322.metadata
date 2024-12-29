@@ -1,0 +1,14 @@
+com.example.kanbansystem.security.MyuserDetailsService#addNewUser(Lcom/example/kanbansystem/entities/User;)Lcom/example/kanbansystem/entities/User;
+false
+24c003a3b22a0f7e8284f2dd9d88b303
+com.example.kanbansystem.entities.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)V
+com.example.kanbansystem.entities.User#instance-init#
+==
+!unknownMethod! !unknownMethod!
+getEmail com.example.kanbansystem.entities.User#getEmail()Ljava/lang/String;
+getPassword com.example.kanbansystem.entities.User#getPassword()Ljava/lang/String;
+getRoles com.example.kanbansystem.entities.User#getRoles()Ljava/lang/String;
+getUsername com.example.kanbansystem.entities.User#getUsername()Ljava/lang/String;
+isActive com.example.kanbansystem.entities.User#isActive()Z
+setActive com.example.kanbansystem.entities.User#setActive(Z)V
+setRoles com.example.kanbansystem.entities.User#setRoles(Ljava/lang/String;)V

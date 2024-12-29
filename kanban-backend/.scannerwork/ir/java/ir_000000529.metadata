@@ -1,0 +1,10 @@
+com.example.kanbansystem.Service.TestBoardService#testSaveBoard()V
+false
+bd078749327af41bb7c935eec5002006
+com.example.kanbansystem.entities.Board#<init>()V
+com.example.kanbansystem.entities.Board#instance-init#
+==
+!unknownMethod! !unknownMethod!
+getName com.example.kanbansystem.entities.Board#getName()Ljava/lang/String;
+saveBoard com.example.kanbansystem.service.BoardService#saveBoard(Lcom/example/kanbansystem/entities/Board;)Lcom/example/kanbansystem/entities/Board;
+setName com.example.kanbansystem.entities.Board#setName(Ljava/lang/String;)V

@@ -1,0 +1,14 @@
+com.example.kanbansystem.Service.TestAuthService#testAuthenticate_InvalidPassword()V
+false
+7509c801849d45f79ebc0c0fd115f5aa
+com.example.kanbansystem.Response.AuthenticationRequest#<init>()V
+com.example.kanbansystem.Response.AuthenticationRequest#instance-init#
+com.example.kanbansystem.entities.User#<init>()V
+com.example.kanbansystem.entities.User#instance-init#
+==
+!unknownMethod! !unknownMethod!
+findByUsername com.example.kanbansystem.Repository.UserRepository#findByUsername(Ljava/lang/String;)Lcom/example/kanbansystem/entities/User;
+setPassword com.example.kanbansystem.Response.AuthenticationRequest#setPassword(Ljava/lang/String;)V
+setPassword com.example.kanbansystem.entities.User#setPassword(Ljava/lang/String;)V
+setUsername com.example.kanbansystem.Response.AuthenticationRequest#setUsername(Ljava/lang/String;)V
+setUsername com.example.kanbansystem.entities.User#setUsername(Ljava/lang/String;)V

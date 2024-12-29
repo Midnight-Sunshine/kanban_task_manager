@@ -1,0 +1,5 @@
+com.example.kanbansystem.controller.BoardController#getAllBoard()LResponseEntity;
+false
+74f55d323294e374d3cde3493efb75d1
+==
+getAllBoard com.example.kanbansystem.service.BoardService#getAllBoard()Ljava/util/List;

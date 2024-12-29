@@ -1,0 +1,82 @@
+
+Tcom.example.kanbansystem.Response.AuthenticationRequest#toString()Ljava/lang/String;ß
+úC:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/Response/AuthenticationRequest.java+ +("1*˙
+1, ,('r
+p
+, -(
+%0java.lang.String"__concat*&
+, ,('
+AuthenticationRequest{*
+- -(
+
+username='í
+è
+- -('
+%1java.lang.String"__id*e
+
+__unknown_file (I*G9
+7com.example.kanbansystem.Response.AuthenticationRequest"
+
+usernamez
+x
+, -('
+%2java.lang.String"__concat*$
+, -(
+
+%0java.lang.String*$
+- -('
+
+%1java.lang.Stringh
+f
+, -(.
+%3java.lang.String"__concat*$
+, -('
+
+%2java.lang.String*
+-* -(.
+\'r
+p
+, .(
+%4java.lang.String"__concat*$
+, -(.
+
+%3java.lang.String*
+. .(
+, password='í
+è
+.! .()
+%5java.lang.String"__id*e
+
+__unknown_file (I*G9
+7com.example.kanbansystem.Response.AuthenticationRequest"
+
+passwordz
+x
+, .()
+%6java.lang.String"__concat*$
+, .(
+
+%4java.lang.String*$
+.! .()
+
+%5java.lang.Stringh
+f
+, .(0
+%7java.lang.String"__concat*$
+, .()
+
+%6java.lang.String*
+., .(0
+\'g
+e
+, /(
+%8java.lang.String"__concat*$
+, .(0
+
+%7java.lang.String*
+/ /(
+}"$
+, /(
+
+%8java.lang.StringB;9
+7com.example.kanbansystem.Response.AuthenticationRequestH

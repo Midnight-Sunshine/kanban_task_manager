@@ -1,0 +1,10 @@
+com.example.kanbansystem.Service.TestTaskService#testGetSprintsByIds()V
+false
+191e15de76c223634bb1f0f0d9157f31
+com.example.kanbansystem.entities.Sprint#<init>()V
+com.example.kanbansystem.entities.Sprint#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+getSprintsByIds com.example.kanbansystem.service.TaskService#getSprintsByIds(Ljava/util/List;)Ljava/util/List;
+size java.util.List#size()I

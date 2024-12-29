@@ -1,0 +1,16 @@
+
+^com.example.kanbansystem.service.TaskService#getTaskById(Ljava/lang/Long;)Ljava/util/Optional;œ
+‘C:/Users/pc/Desktop/Ecom with Mobile/projet-dev-2324-g4-iir42324c4g10/kanban-main/src/main/java/com/example/kanbansystem/service/TaskService.java0 0(%"1*Ó
+11 1(¯
+¬
+1 1(8
+%02com.example.kanbansystem.Repository.TaskRepository"__id*`
+
+__unknown_file (D*B.
+,com.example.kanbansystem.service.TaskService"
+taskRepository"
+1 1(+
+"": 
+0& 0(-
+idjava.lang.LongB0.
+,com.example.kanbansystem.service.TaskServiceH

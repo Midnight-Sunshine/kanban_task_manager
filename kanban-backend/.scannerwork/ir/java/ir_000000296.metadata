@@ -1,0 +1,37 @@
+com.example.kanbansystem.Service.TestTaskService#testUpdateTaskFromDTO()V
+false
+c6faa83f187194f32235fdd79635f5f0
+com.example.kanbansystem.dto.TaskDTO#<init>()V
+com.example.kanbansystem.dto.TaskDTO#instance-init#
+com.example.kanbansystem.entities.Board#<init>()V
+com.example.kanbansystem.entities.Board#instance-init#
+com.example.kanbansystem.entities.Sprint#<init>()V
+com.example.kanbansystem.entities.Sprint#instance-init#
+com.example.kanbansystem.entities.Task#<init>()V
+com.example.kanbansystem.entities.Task#instance-init#
+com.example.kanbansystem.entities.User#<init>()V
+com.example.kanbansystem.entities.User#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+getBoard com.example.kanbansystem.entities.Task#getBoard()Lcom/example/kanbansystem/entities/Board;
+getDescription com.example.kanbansystem.entities.Task#getDescription()Ljava/lang/String;
+getEstimation com.example.kanbansystem.entities.Task#getEstimation()Ljava/lang/Integer;
+getName com.example.kanbansystem.entities.Task#getName()Ljava/lang/String;
+getSprintIds com.example.kanbansystem.dto.TaskDTO#getSprintIds()Ljava/util/List;
+getSprints com.example.kanbansystem.entities.Task#getSprints()Ljava/util/List;
+getStatus com.example.kanbansystem.entities.Task#getStatus()Lcom/example/kanbansystem/entities/TaskStatus;
+getUserIds com.example.kanbansystem.dto.TaskDTO#getUserIds()Ljava/util/List;
+getUsers com.example.kanbansystem.entities.Task#getUsers()Ljava/util/List;
+setBoardId com.example.kanbansystem.dto.TaskDTO#setBoardId(Ljava/lang/Long;)V
+setDescription com.example.kanbansystem.dto.TaskDTO#setDescription(Ljava/lang/String;)V
+setEstimation com.example.kanbansystem.dto.TaskDTO#setEstimation(Ljava/lang/Integer;)V
+setId com.example.kanbansystem.dto.TaskDTO#setId(Ljava/lang/Long;)V
+setId com.example.kanbansystem.entities.Board#setId(Ljava/lang/Long;)V
+setId com.example.kanbansystem.entities.Task#setId(Ljava/lang/Long;)V
+setName com.example.kanbansystem.dto.TaskDTO#setName(Ljava/lang/String;)V
+setSprintIds com.example.kanbansystem.dto.TaskDTO#setSprintIds(Ljava/util/List;)V
+setStatus com.example.kanbansystem.dto.TaskDTO#setStatus(Lcom/example/kanbansystem/entities/TaskStatus;)V
+setUserIds com.example.kanbansystem.dto.TaskDTO#setUserIds(Ljava/util/List;)V
+updateTaskFromDTO com.example.kanbansystem.service.TaskService#updateTaskFromDTO(Lcom/example/kanbansystem/dto/TaskDTO;)Lcom/example/kanbansystem/entities/Task;

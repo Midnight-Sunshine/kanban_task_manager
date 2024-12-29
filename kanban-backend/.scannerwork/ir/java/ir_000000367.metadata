@@ -1,0 +1,10 @@
+com.example.kanbansystem.Service.TestSprintService#testSaveSprint()V
+false
+89543ede29db68190e43fa30c1cd59b9
+com.example.kanbansystem.entities.Sprint#<init>()V
+com.example.kanbansystem.entities.Sprint#instance-init#
+==
+!unknownMethod! !unknownMethod!
+getName com.example.kanbansystem.entities.Sprint#getName()Ljava/lang/String;
+saveSprint com.example.kanbansystem.service.SprintService#saveSprint(Lcom/example/kanbansystem/entities/Sprint;)Lcom/example/kanbansystem/entities/Sprint;
+setName com.example.kanbansystem.entities.Sprint#setName(Ljava/lang/String;)V

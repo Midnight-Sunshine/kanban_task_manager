@@ -1,0 +1,13 @@
+com.example.kanbansystem.Controller.TestUserController#testAuthenticate_Success()V
+false
+51878a78269f9844dd4d89818e46445c
+com.example.kanbansystem.Response.AuthenticationRequest#<init>()V
+com.example.kanbansystem.Response.AuthenticationRequest#instance-init#
+com.example.kanbansystem.Response.AuthenticationResponse#<init>()V
+com.example.kanbansystem.Response.AuthenticationResponse#instance-init#
+==
+!unknownMethod! !unknownMethod!
+authenticate com.example.kanbansystem.controller.UserController#authenticate(Lcom/example/kanbansystem/Response/AuthenticationRequest;)LResponseEntity;
+authenticate com.example.kanbansystem.service.authService#authenticate(Lcom/example/kanbansystem/Response/AuthenticationRequest;)Lcom/example/kanbansystem/Response/AuthenticationResponse;
+setPassword com.example.kanbansystem.Response.AuthenticationRequest#setPassword(Ljava/lang/String;)V
+setUsername com.example.kanbansystem.Response.AuthenticationRequest#setUsername(Ljava/lang/String;)V

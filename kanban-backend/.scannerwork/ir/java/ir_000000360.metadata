@@ -1,0 +1,7 @@
+com.example.kanbansystem.Controller.TestTaskController#testDeleteTaskById_NotFound()V
+false
+9d9cfa6a37f6b806d742a345e04e6d84
+==
+!unknownMethod! !unknownMethod!
+deleteTaskById com.example.kanbansystem.controller.TaskController#deleteTaskById(Ljava/lang/Long;)LResponseEntity;
+deleteTaskById com.example.kanbansystem.service.TaskService#deleteTaskById(Ljava/lang/Long;)Ljava/lang/String;

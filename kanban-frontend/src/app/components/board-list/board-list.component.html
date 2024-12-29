@@ -1,0 +1,23 @@
+<app-board-navbar [boards]="boards"></app-board-navbar>
+
+<div class="container">
+  <div id="namee">
+    <h2>List of Boards</h2>
+    <button *ngIf="userRole === 'ROLE_ADMIN'" id="boardAddButton" class="btn-add" (click)="goToAddBoard()">Add Board</button>
+  </div>
+  <div class="card-container">
+    <div class="card" *ngFor="let board of boards">
+      <div class="card-header">
+        <h3>{{ board.name }}</h3>
+      </div>
+      <div class="card-content">
+        <div id="boardContent" (click)="showTasks(board.id)">
+          <p>{{ board.description }}</p>
+          <p>Date Created: {{ board.dateCreation | date:'dd/MM/yyyy'}}</p>
+          <p>Admin: {{ board.user.username }}</p>
+        </div>
+        <button *ngIf="userRole === 'ROLE_ADMIN'" class="btn-delete" (click)="deleteBoard(board.id)">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>

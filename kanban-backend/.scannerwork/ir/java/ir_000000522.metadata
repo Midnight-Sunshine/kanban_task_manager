@@ -1,0 +1,12 @@
+com.example.kanbansystem.Service.TestUserService#testGetUserById_UserExists()V
+false
+f49a4b877c81b37ac05edfe564694433
+com.example.kanbansystem.entities.User#<init>()V
+com.example.kanbansystem.entities.User#instance-init#
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#isPresent()Z
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+getUserById com.example.kanbansystem.service.UserService#getUserById(Ljava/lang/Long;)Ljava/util/Optional;
+setId com.example.kanbansystem.entities.User#setId(Ljava/lang/Long;)V

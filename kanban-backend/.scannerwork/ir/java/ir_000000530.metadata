@@ -1,0 +1,15 @@
+com.example.kanbansystem.Service.TestBoardService#testDeleteBoardById_Success()V
+false
+5ddecd7cba7e47bc5d984521758e39a9
+com.example.kanbansystem.entities.Board#<init>()V
+com.example.kanbansystem.entities.Board#instance-init#
+com.example.kanbansystem.entities.Task#<init>()V
+com.example.kanbansystem.entities.Task#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+deleteBoardById com.example.kanbansystem.service.BoardService#deleteBoardById(Ljava/lang/Long;)Ljava/lang/String;
+findByBoardId com.example.kanbansystem.Repository.TaskRepository#findByBoardId(Ljava/lang/Long;)Ljava/util/List;
+setId com.example.kanbansystem.entities.Board#setId(Ljava/lang/Long;)V
+setId com.example.kanbansystem.entities.Task#setId(Ljava/lang/Long;)V
